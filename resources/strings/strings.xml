@@ -1,0 +1,12 @@
+<strings>
+    <string id="AppName">FaceWatch</string>
+
+    <string id="BrandNameTitle">Brand name</string>
+    <string id="AccentThemeTitle">Accent theme</string>
+
+    <string id="ThemeIce">Ice blue</string>
+    <string id="ThemeRed">Red</string>
+    <string id="ThemeGold">Gold</string>
+    <string id="ThemeGreen">Green</string>
+    <string id="ThemeWhite">White</string>
+</strings>

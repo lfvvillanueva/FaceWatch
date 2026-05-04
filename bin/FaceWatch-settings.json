@@ -1,0 +1,61 @@
+{
+  "settings" : [ {
+    "key" : "BrandName",
+    "valueType" : "string",
+    "defaultValue" : "LUIS VENEGAS",
+    "configTitle" : "BrandNameTitle",
+    "configPrompt" : null,
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "AccentTheme",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "AccentThemeTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "ThemeIce",
+      "value" : 0
+    }, {
+      "display" : "ThemeRed",
+      "value" : 1
+    }, {
+      "display" : "ThemeGold",
+      "value" : 2
+    }, {
+      "display" : "ThemeGreen",
+      "value" : 3
+    }, {
+      "display" : "ThemeWhite",
+      "value" : 4
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  } ],
+  "supportsLiveValidation" : false,
+  "languages" : {
+    "valyrian" : {
+      "ThemeIce" : "Ice blue",
+      "ThemeGreen" : "Green",
+      "AccentThemeTitle" : "Accent theme",
+      "ThemeWhite" : "White",
+      "ThemeRed" : "Red",
+      "ThemeGold" : "Gold",
+      "AppName" : "FaceWatch",
+      "BrandNameTitle" : "Brand name"
+    }
+  }
+}

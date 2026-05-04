@@ -1,0 +1,21 @@
+<drawables>
+    <bitmap id="LauncherIcon" filename="launcher_icon.svg" />
+
+    <bitmap id="Num1" filename="numerals/num_1.png" />
+    <bitmap id="Num2" filename="numerals/num_2.png" />
+    <bitmap id="Num3" filename="numerals/num_3.png" />
+    <bitmap id="Num4" filename="numerals/num_4.png" />
+    <bitmap id="Num5" filename="numerals/num_5.png" />
+    <bitmap id="Num6" filename="numerals/num_6.png" />
+    <bitmap id="Num7" filename="numerals/num_7.png" />
+    <bitmap id="Num8" filename="numerals/num_8.png" />
+    <bitmap id="Num9" filename="numerals/num_9.png" />
+    <bitmap id="Num10" filename="numerals/num_10.png" />
+    <bitmap id="Num11" filename="numerals/num_11.png" />
+    <bitmap id="Num12" filename="numerals/num_12.png" />
+
+    <bitmap id="HourHandAsset" filename="hands/hour_hand.png" packingFormat="png" />
+    <bitmap id="MinuteHandAsset" filename="hands/minute_hand.png" packingFormat="png" />
+    <bitmap id="SecondHandAsset" filename="hands/second_hand.png" packingFormat="png" />
+    <bitmap id="CenterCapAsset" filename="hands/center_cap.png" packingFormat="png" />
+</drawables>

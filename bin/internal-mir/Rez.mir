@@ -1,0 +1,1815 @@
+[ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+using Toybox.Graphics;
+[ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+module Rez {
+    [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    module Drawables {
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [Num1,9,27,31]; @symbol_type<0> = [ResourceId,9,35,45]; ]
+        var Num1 as ResourceId;
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 10; @position = 27; initialized = true; @symbol_vardef = [Num2,10,27,31]; @symbol_type<0> = [ResourceId,10,35,45]; ]
+        var Num2 as ResourceId;
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 11; @position = 27; initialized = true; @symbol_vardef = [Num3,11,27,31]; @symbol_type<0> = [ResourceId,11,35,45]; ]
+        var Num3 as ResourceId;
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 12; @position = 27; initialized = true; @symbol_vardef = [Num4,12,27,31]; @symbol_type<0> = [ResourceId,12,35,45]; ]
+        var Num4 as ResourceId;
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 13; @position = 27; initialized = true; @symbol_vardef = [Num5,13,27,31]; @symbol_type<0> = [ResourceId,13,35,45]; ]
+        var Num5 as ResourceId;
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 14; @position = 27; initialized = true; @symbol_vardef = [Num6,14,27,31]; @symbol_type<0> = [ResourceId,14,35,45]; ]
+        var Num6 as ResourceId;
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 15; @position = 27; initialized = true; @symbol_vardef = [Num7,15,27,31]; @symbol_type<0> = [ResourceId,15,35,45]; ]
+        var Num7 as ResourceId;
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 16; @position = 27; initialized = true; @symbol_vardef = [Num8,16,27,31]; @symbol_type<0> = [ResourceId,16,35,45]; ]
+        var Num8 as ResourceId;
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 17; @position = 27; initialized = true; @symbol_vardef = [Num9,17,27,31]; @symbol_type<0> = [ResourceId,17,35,45]; ]
+        var Num9 as ResourceId;
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 18; @position = 27; initialized = true; @symbol_vardef = [Num10,18,27,32]; @symbol_type<0> = [ResourceId,18,36,46]; ]
+        var Num10 as ResourceId;
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 19; @position = 27; initialized = true; @symbol_vardef = [Num11,19,27,32]; @symbol_type<0> = [ResourceId,19,36,46]; ]
+        var Num11 as ResourceId;
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 20; @position = 27; initialized = true; @symbol_vardef = [Num12,20,27,32]; @symbol_type<0> = [ResourceId,20,36,46]; ]
+        var Num12 as ResourceId;
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 21; @position = 27; initialized = true; @symbol_vardef = [HourHandAsset,21,27,40]; @symbol_type<0> = [ResourceId,21,44,54]; ]
+        var HourHandAsset as ResourceId;
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 22; @position = 27; initialized = true; @symbol_vardef = [MinuteHandAsset,22,27,42]; @symbol_type<0> = [ResourceId,22,46,56]; ]
+        var MinuteHandAsset as ResourceId;
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 23; @position = 27; initialized = true; @symbol_vardef = [SecondHandAsset,23,27,42]; @symbol_type<0> = [ResourceId,23,46,56]; ]
+        var SecondHandAsset as ResourceId;
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 24; @position = 27; initialized = true; @symbol_vardef = [CenterCapAsset,24,27,41]; @symbol_type<0> = [ResourceId,24,45,55]; ]
+        var CenterCapAsset as ResourceId;
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 25; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,25,27,39]; @symbol_type<0> = [ResourceId,25,43,53]; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 28; @symbol_moduledef = [Layouts,28,11,18]; ]
+    module Layouts {
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 28; ]
+        <init> {
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 29; @symbol_functiondef = [WatchFace,29,17,26]; @symbol_param<0> = [dc,29,27,29]; @symbol_param<0>_type<0> = [Graphics,29,33,41]; @symbol_param<0>_type<1> = [Dc,29,42,44]; @symbol_return<0> = [Array,29,49,54]; @symbol_return<1> = [WatchUi,29,55,62]; @symbol_return<2> = [Drawable,29,63,71]; ]
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+c__Users_lfvvi_OneDrive_Escritorio_Garmin_FaceWatch_bin_gen_006_B4565_00_source_Rez_mcgen_29_73_35_8_start:
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 30 12 ]
+            [ "c__Users_lfvvi_OneDrive_Escritorio_Garmin_FaceWatch_bin_gen_006_B4565_00_source_Rez_mcgen_29_73_35_8_start" "c__Users_lfvvi_OneDrive_Escritorio_Garmin_FaceWatch_bin_gen_006_B4565_00_source_Rez_mcgen_29_73_35_8_stop" ]
+            %rez_cmp_local_custom_drawable_11939594661139614796.1 = local;
+            symbol [ rez_cmp_local_custom_drawable_11939594661139614796 %rez_cmp_local_custom_drawable_11939594661139614796.1 30 16 66 ];
+            symbol [ Background %tmp.4 30 73 83 ];
+            %tmp.4 = getv ? :Background;
+            %tmp.1 = newc %tmp.4 ();
+            lputv %rez_cmp_local_custom_drawable_11939594661139614796.1 %tmp.1;
+            symbol [ rez_cmp_local_custom_drawable_11939594661139614796 %rez_cmp_local_custom_drawable_11939594661139614796.1 30 16 66 ];
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 32 12 ]
+            [ "c__Users_lfvvi_OneDrive_Escritorio_Garmin_FaceWatch_bin_gen_006_B4565_00_source_Rez_mcgen_29_73_35_8_start" "c__Users_lfvvi_OneDrive_Escritorio_Garmin_FaceWatch_bin_gen_006_B4565_00_source_Rez_mcgen_29_73_35_8_stop" ]
+            %rez_cmp_local_text_TimeLabel.2 = local;
+            symbol [ rez_cmp_local_text_TimeLabel %rez_cmp_local_text_TimeLabel.2 32 16 44 ];
+            symbol [ WatchUi %tmp.7 32 51 58 ];
+            %tmp.7 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.8 32 59 63 ];
+            %tmp.8 = getv function ? %tmp.7 :Text;
+            %tmp.9 = newd 6;
+            %tmp.11 = const :identifier;
+            symbol [ identifier %tmp.11 32 66 76 const ];
+            %tmp.12 = "TimeLabel";
+            %tmp.13 = dup %tmp.9;
+            %tmp.14 = aputv %tmp.13 %tmp.11 %tmp.12;
+            %tmp.16 = const :color;
+            symbol [ color %tmp.16 32 92 97 const ];
+            symbol [ Graphics %tmp.17 32 99 107 ];
+            %tmp.17 = getm $.Toybox.Graphics;
+            symbol [ COLOR_BLUE %tmp.18 32 108 118 ];
+            %tmp.18 = getv %tmp.17 :COLOR_BLUE;
+            %tmp.19 = dup %tmp.14;
+            %tmp.20 = aputv %tmp.19 %tmp.16 %tmp.18;
+            %tmp.22 = const :locX;
+            symbol [ locX %tmp.22 32 121 125 const ];
+            %tmp.23 = lgetv %dc;
+            symbol [ dc %tmp.23 32 128 130 ];
+            symbol [ getWidth %tmp.24 32 131 139 ];
+            %tmp.24 = getv function %tmp.23 :getWidth;
+            %tmp.25 = invoke %tmp.23 %tmp.24();
+            %tmp.26 = 0.5;
+            %tmp.27 = mul %tmp.25 %tmp.26;
+            %tmp.28 = dup %tmp.20;
+            %tmp.29 = aputv %tmp.28 %tmp.22 %tmp.27;
+            %tmp.31 = const :locY;
+            symbol [ locY %tmp.31 32 151 155 const ];
+            %tmp.32 = lgetv %dc;
+            symbol [ dc %tmp.32 32 159 161 ];
+            symbol [ getHeight %tmp.33 32 162 171 ];
+            %tmp.33 = getv function %tmp.32 :getHeight;
+            %tmp.34 = invoke %tmp.32 %tmp.33();
+            %tmp.35 = lgetv %dc;
+            symbol [ dc %tmp.35 32 176 178 ];
+            symbol [ getFontHeight %tmp.36 32 179 192 ];
+            %tmp.36 = getv function %tmp.35 :getFontHeight;
+            symbol [ Graphics %tmp.37 32 193 201 ];
+            %tmp.37 = getm $.Toybox.Graphics;
+            symbol [ FONT_LARGE %tmp.38 32 202 212 ];
+            %tmp.38 = getv %tmp.37 :FONT_LARGE;
+            %tmp.39 = invoke %tmp.35 %tmp.36(%tmp.38);
+            %tmp.40 = sub %tmp.34 %tmp.39;
+            %tmp.41 = 0.5;
+            %tmp.42 = mul %tmp.40 %tmp.41;
+            %tmp.43 = dup %tmp.29;
+            %tmp.44 = aputv %tmp.43 %tmp.31 %tmp.42;
+            %tmp.46 = const :justification;
+            symbol [ justification %tmp.46 32 224 237 const ];
+            symbol [ Graphics %tmp.47 32 239 247 ];
+            %tmp.47 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.48 32 248 267 ];
+            %tmp.48 = getv %tmp.47 :TEXT_JUSTIFY_CENTER;
+            %tmp.49 = dup %tmp.44;
+            %tmp.50 = aputv %tmp.49 %tmp.46 %tmp.48;
+            %tmp.52 = const :font;
+            symbol [ font %tmp.52 32 270 274 const ];
+            symbol [ Graphics %tmp.53 32 276 284 ];
+            %tmp.53 = getm $.Toybox.Graphics;
+            symbol [ FONT_LARGE %tmp.54 32 285 295 ];
+            %tmp.54 = getv %tmp.53 :FONT_LARGE;
+            %tmp.55 = dup %tmp.50;
+            %tmp.56 = aputv %tmp.55 %tmp.52 %tmp.54;
+            %tmp.5 = newc %tmp.8 (%tmp.56);
+            lputv %rez_cmp_local_text_TimeLabel.2 %tmp.5;
+            symbol [ rez_cmp_local_text_TimeLabel %rez_cmp_local_text_TimeLabel.2 32 16 44 ];
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 34 12 ]
+            %tmp.57 = newa 2 Array<WatchUi.Drawable>;
+            symbol [ Array %tmp.57 34 105 110 ];
+            symbol [ WatchUi %tmp.57 34 111 118 ];
+            symbol [ Drawable %tmp.57 34 119 127 ];
+            %tmp.58 = lgetv %rez_cmp_local_custom_drawable_11939594661139614796.1;
+            symbol [ rez_cmp_local_custom_drawable_11939594661139614796 %tmp.58 34 20 70 ];
+            %tmp.59 = dup %tmp.57;
+            %tmp.60 = aputv %tmp.59 0 %tmp.58;
+            %tmp.61 = lgetv %rez_cmp_local_text_TimeLabel.2;
+            symbol [ rez_cmp_local_text_TimeLabel %tmp.61 34 72 100 ];
+            %tmp.62 = dup %tmp.60;
+            %tmp.63 = aputv %tmp.62 1 %tmp.61;
+            ret %tmp.63;
+c__Users_lfvvi_OneDrive_Escritorio_Garmin_FaceWatch_bin_gen_006_B4565_00_source_Rez_mcgen_29_73_35_8_stop:
+        }
+    }
+    [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 38; @symbol_moduledef = [Strings,38,11,18]; ]
+    module Strings {
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 38; ]
+        <init> {
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 39; @position = 27; initialized = true; @symbol_vardef = [ThemeIce,39,27,35]; @symbol_type<0> = [ResourceId,39,39,49]; ]
+        var ThemeIce as ResourceId;
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 40; @position = 27; initialized = true; @symbol_vardef = [ThemeGreen,40,27,37]; @symbol_type<0> = [ResourceId,40,41,51]; ]
+        var ThemeGreen as ResourceId;
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 41; @position = 27; initialized = true; @symbol_vardef = [AccentThemeTitle,41,27,43]; @symbol_type<0> = [ResourceId,41,47,57]; ]
+        var AccentThemeTitle as ResourceId;
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 42; @position = 27; initialized = true; @symbol_vardef = [ThemeWhite,42,27,37]; @symbol_type<0> = [ResourceId,42,41,51]; ]
+        var ThemeWhite as ResourceId;
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 43; @position = 27; initialized = true; @symbol_vardef = [ThemeRed,43,27,35]; @symbol_type<0> = [ResourceId,43,39,49]; ]
+        var ThemeRed as ResourceId;
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 44; @position = 27; initialized = true; @symbol_vardef = [ThemeGold,44,27,36]; @symbol_type<0> = [ResourceId,44,40,50]; ]
+        var ThemeGold as ResourceId;
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 45; @position = 27; initialized = true; @symbol_vardef = [AppName,45,27,34]; @symbol_type<0> = [ResourceId,45,38,48]; ]
+        var AppName as ResourceId;
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 46; @position = 27; initialized = true; @symbol_vardef = [BrandNameTitle,46,27,41]; @symbol_type<0> = [ResourceId,46,45,55]; ]
+        var BrandNameTitle as ResourceId;
+    }
+    [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 49; @symbol_moduledef = [Styles,49,11,17]; ]
+    module Styles {
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 49; ]
+        <init> {
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 50; @symbol_moduledef = [prompt_font_enhanced_readability__body_with_title,50,15,64]; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 50; ]
+            <init> {
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 51 18 ]
+                symbol [ Graphics %tmp.64 51 34 42 ];
+                %tmp.64 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.65 51 43 62 ];
+                %tmp.65 = getv %tmp.64 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.66 51 63 71 ];
+                %tmp.66 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.67 51 72 92 ];
+                %tmp.67 = getv %tmp.66 :TEXT_JUSTIFY_VCENTER;
+                %tmp.68 = bitor %tmp.65 %tmp.67;
+                putv self :justification %tmp.68;
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 52 18 ]
+                symbol [ Graphics %tmp.69 52 25 33 ];
+                %tmp.69 = getm $.Toybox.Graphics;
+                symbol [ FONT_SMALL %tmp.70 52 34 44 ];
+                %tmp.70 = getv %tmp.69 :FONT_SMALL;
+                putv self :font %tmp.70;
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 51; @position = 18; @symbol_constdef = [justification,51,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 52; @position = 18; @symbol_constdef = [font,52,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 55; @symbol_moduledef = [system_size__menu_header,55,15,39]; ]
+        module system_size__menu_header {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 55; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 56; @position = 18; @symbol_constdef = [width,56,18,23]; @symbol_type<0> = [Number,56,27,33]; ]
+            const width as Number = 454;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 57; @position = 18; @symbol_constdef = [height,57,18,24]; @symbol_type<0> = [Number,57,28,34]; ]
+            const height as Number = 172;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 60; @symbol_moduledef = [system_loc__hint_button_left_bottom,60,15,50]; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 60; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 61; @position = 18; @symbol_constdef = [x,61,18,19]; @symbol_type<0> = [Number,61,23,29]; ]
+            const x as Number = 16;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 62; @position = 18; @symbol_constdef = [y,62,18,19]; @symbol_type<0> = [Number,62,23,29]; ]
+            const y as Number = 284;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 65; @symbol_moduledef = [prompt_font_enhanced_readability__body_no_title,65,15,62]; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 65; ]
+            <init> {
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 66 18 ]
+                symbol [ Graphics %tmp.71 66 34 42 ];
+                %tmp.71 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.72 66 43 62 ];
+                %tmp.72 = getv %tmp.71 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.73 66 63 71 ];
+                %tmp.73 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.74 66 72 92 ];
+                %tmp.74 = getv %tmp.73 :TEXT_JUSTIFY_VCENTER;
+                %tmp.75 = bitor %tmp.72 %tmp.74;
+                putv self :justification %tmp.75;
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 67 18 ]
+                symbol [ Graphics %tmp.76 67 25 33 ];
+                %tmp.76 = getm $.Toybox.Graphics;
+                symbol [ FONT_SMALL %tmp.77 67 34 44 ];
+                %tmp.77 = getv %tmp.76 :FONT_SMALL;
+                putv self :font %tmp.77;
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 66; @position = 18; @symbol_constdef = [justification,66,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 67; @position = 18; @symbol_constdef = [font,67,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 70; @symbol_moduledef = [prompt_loc__body_no_title,70,15,40]; ]
+        module prompt_loc__body_no_title {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 70; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 71; @position = 18; @symbol_constdef = [x,71,18,19]; @symbol_type<0> = [Number,71,23,29]; ]
+            const x as Number = 76;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 72; @position = 18; @symbol_constdef = [y,72,18,19]; @symbol_type<0> = [Number,72,23,29]; ]
+            const y as Number = 70;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 75; @symbol_moduledef = [system_icon_dark__about,75,15,38]; ]
+        module system_icon_dark__about {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 75; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 76; @position = 18; @symbol_constdef = [filename,76,18,26]; @symbol_type<0> = [String,76,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__about.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 77; @position = 18; @symbol_constdef = [compress,77,18,26]; @symbol_type<0> = [String,77,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 78; @position = 18; @symbol_constdef = [dithering,78,18,27]; @symbol_type<0> = [String,78,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 79; @position = 18; @symbol_constdef = [automaticPalette,79,18,34]; @symbol_type<0> = [String,79,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 80; @position = 18; @symbol_constdef = [packingFormat,80,18,31]; @symbol_type<0> = [String,80,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 83; @symbol_moduledef = [system_icon_light__question,83,15,42]; ]
+        module system_icon_light__question {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 83; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 84; @position = 18; @symbol_constdef = [filename,84,18,26]; @symbol_type<0> = [String,84,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__question.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 85; @position = 18; @symbol_constdef = [compress,85,18,26]; @symbol_type<0> = [String,85,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 86; @position = 18; @symbol_constdef = [dithering,86,18,27]; @symbol_type<0> = [String,86,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 87; @position = 18; @symbol_constdef = [automaticPalette,87,18,34]; @symbol_type<0> = [String,87,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 88; @position = 18; @symbol_constdef = [packingFormat,88,18,31]; @symbol_type<0> = [String,88,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 91; @symbol_moduledef = [system_loc__hint_button_left_top,91,15,47]; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 91; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 92; @position = 18; @symbol_constdef = [exclude,92,18,25]; @symbol_type<0> = [Boolean,92,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 95; @symbol_moduledef = [prompt_font__title,95,15,33]; ]
+        module prompt_font__title {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 95; ]
+            <init> {
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 96 18 ]
+                symbol [ Graphics %tmp.78 96 34 42 ];
+                %tmp.78 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.79 96 43 62 ];
+                %tmp.79 = getv %tmp.78 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.80 96 63 71 ];
+                %tmp.80 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.81 96 72 92 ];
+                %tmp.81 = getv %tmp.80 :TEXT_JUSTIFY_VCENTER;
+                %tmp.82 = bitor %tmp.79 %tmp.81;
+                putv self :justification %tmp.82;
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 97 18 ]
+                symbol [ Graphics %tmp.83 97 25 33 ];
+                %tmp.83 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.84 97 34 43 ];
+                %tmp.84 = getv %tmp.83 :FONT_TINY;
+                putv self :font %tmp.84;
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 96; @position = 18; @symbol_constdef = [justification,96,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 97; @position = 18; @symbol_constdef = [font,97,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 100; @symbol_moduledef = [system_icon_dark__discard,100,15,40]; ]
+        module system_icon_dark__discard {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 100; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 101; @position = 18; @symbol_constdef = [filename,101,18,26]; @symbol_type<0> = [String,101,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__discard.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 102; @position = 18; @symbol_constdef = [compress,102,18,26]; @symbol_type<0> = [String,102,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 103; @position = 18; @symbol_constdef = [dithering,103,18,27]; @symbol_type<0> = [String,103,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 104; @position = 18; @symbol_constdef = [automaticPalette,104,18,34]; @symbol_type<0> = [String,104,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 105; @position = 18; @symbol_constdef = [packingFormat,105,18,31]; @symbol_type<0> = [String,105,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 108; @symbol_moduledef = [system_size__menu_item,108,15,37]; ]
+        module system_size__menu_item {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 108; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 109; @position = 18; @symbol_constdef = [width,109,18,23]; @symbol_type<0> = [Number,109,27,33]; ]
+            const width as Number = 454;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 110; @position = 18; @symbol_constdef = [height,110,18,24]; @symbol_type<0> = [Number,110,28,34]; ]
+            const height as Number = 108;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 113; @symbol_moduledef = [system_color_dark__text,113,15,38]; ]
+        module system_color_dark__text {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 113; ]
+            <init> {
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 115 18 ]
+                symbol [ Graphics %tmp.85 115 31 39 ];
+                %tmp.85 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.86 115 40 57 ];
+                %tmp.86 = getv %tmp.85 :COLOR_TRANSPARENT;
+                putv self :background %tmp.86;
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 114; @position = 18; @symbol_constdef = [color,114,18,23]; @symbol_type<0> = [Number,114,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 115; @position = 18; @symbol_constdef = [background,115,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 118; @symbol_moduledef = [system_icon_destructive__discard,118,15,47]; ]
+        module system_icon_destructive__discard {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 118; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 119; @position = 18; @symbol_constdef = [filename,119,18,26]; @symbol_type<0> = [String,119,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_destructive__discard.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 120; @position = 18; @symbol_constdef = [dithering,120,18,27]; @symbol_type<0> = [String,120,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 121; @position = 18; @symbol_constdef = [packingFormat,121,18,31]; @symbol_type<0> = [String,121,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 124; @symbol_moduledef = [system_icon_dark__hint_action_menu,124,15,49]; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 124; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 125; @position = 18; @symbol_constdef = [filename,125,18,26]; @symbol_type<0> = [String,125,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 126; @position = 18; @symbol_constdef = [dithering,126,18,27]; @symbol_type<0> = [String,126,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 127; @position = 18; @symbol_constdef = [packingFormat,127,18,31]; @symbol_type<0> = [String,127,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 130; @symbol_moduledef = [prompt_size__title,130,15,33]; ]
+        module prompt_size__title {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 130; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 131; @position = 18; @symbol_constdef = [width,131,18,23]; @symbol_type<0> = [Number,131,27,33]; ]
+            const width as Number = 287;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 132; @position = 18; @symbol_constdef = [height,132,18,24]; @symbol_type<0> = [Number,132,28,34]; ]
+            const height as Number = 97;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 135; @symbol_moduledef = [confirmation_font__body,135,15,38]; ]
+        module confirmation_font__body {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 135; ]
+            <init> {
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 136 18 ]
+                symbol [ Graphics %tmp.87 136 34 42 ];
+                %tmp.87 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.88 136 43 62 ];
+                %tmp.88 = getv %tmp.87 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.89 136 63 71 ];
+                %tmp.89 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.90 136 72 92 ];
+                %tmp.90 = getv %tmp.89 :TEXT_JUSTIFY_VCENTER;
+                %tmp.91 = bitor %tmp.88 %tmp.90;
+                putv self :justification %tmp.91;
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 137 18 ]
+                symbol [ Graphics %tmp.92 137 25 33 ];
+                %tmp.92 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.93 137 34 43 ];
+                %tmp.93 = getv %tmp.92 :FONT_TINY;
+                putv self :font %tmp.93;
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 136; @position = 18; @symbol_constdef = [justification,136,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 137; @position = 18; @symbol_constdef = [font,137,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 140; @symbol_moduledef = [system_color_dark__background,140,15,44]; ]
+        module system_color_dark__background {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 140; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 141; @position = 18; @symbol_constdef = [color,141,18,23]; @symbol_type<0> = [Number,141,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 142; @position = 18; @symbol_constdef = [background,142,18,28]; @symbol_type<0> = [Number,142,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 145; @symbol_moduledef = [system_icon_destructive__hint_button_left_top,145,15,60]; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 145; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 146; @position = 18; @symbol_constdef = [filename,146,18,26]; @symbol_type<0> = [String,146,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_destructive__hint_button_left_top.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 147; @position = 18; @symbol_constdef = [dithering,147,18,27]; @symbol_type<0> = [String,147,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 148; @position = 18; @symbol_constdef = [packingFormat,148,18,31]; @symbol_type<0> = [String,148,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 151; @symbol_moduledef = [system_size__launch_icon,151,15,39]; ]
+        module system_size__launch_icon {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 151; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 152; @position = 18; @symbol_constdef = [scaleX,152,18,24]; @symbol_type<0> = [Number,152,28,34]; ]
+            const scaleX as Number = 65;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 153; @position = 18; @symbol_constdef = [scaleY,153,18,24]; @symbol_type<0> = [Number,153,28,34]; ]
+            const scaleY as Number = 65;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 154; @position = 18; @symbol_constdef = [scaleRelativeTo,154,18,33]; @symbol_type<0> = [String,154,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 157; @symbol_moduledef = [confirmation_input__confirm,157,15,42]; ]
+        module confirmation_input__confirm {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 157; ]
+            <init> {
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 158 18 ]
+                symbol [ WatchUi %tmp.94 158 27 34 ];
+                %tmp.94 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.95 158 35 44 ];
+                %tmp.95 = getv %tmp.94 :KEY_ENTER;
+                putv self :button %tmp.95;
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 158; @position = 18; @symbol_constdef = [button,158,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 161; @symbol_moduledef = [prompt_font__body_with_title,161,15,43]; ]
+        module prompt_font__body_with_title {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 161; ]
+            <init> {
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 162 18 ]
+                symbol [ Graphics %tmp.96 162 34 42 ];
+                %tmp.96 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.97 162 43 62 ];
+                %tmp.97 = getv %tmp.96 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.97;
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 163 18 ]
+                symbol [ Graphics %tmp.98 163 25 33 ];
+                %tmp.98 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.99 163 34 44 ];
+                %tmp.99 = getv %tmp.98 :FONT_XTINY;
+                putv self :font %tmp.99;
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 162; @position = 18; @symbol_constdef = [justification,162,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 163; @position = 18; @symbol_constdef = [font,163,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 166; @symbol_moduledef = [confirmation_loc__body,166,15,37]; ]
+        module confirmation_loc__body {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 166; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 167; @position = 18; @symbol_constdef = [x,167,18,19]; @symbol_type<0> = [Number,167,23,29]; ]
+            const x as Number = 70;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 168; @position = 18; @symbol_constdef = [y,168,18,19]; @symbol_type<0> = [Number,168,23,29]; ]
+            const y as Number = 104;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 171; @symbol_moduledef = [system_icon_destructive__hint_button_left_bottom,171,15,63]; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 171; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 172; @position = 18; @symbol_constdef = [filename,172,18,26]; @symbol_type<0> = [String,172,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_destructive__hint_button_left_bottom.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 173; @position = 18; @symbol_constdef = [dithering,173,18,27]; @symbol_type<0> = [String,173,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 174; @position = 18; @symbol_constdef = [packingFormat,174,18,31]; @symbol_type<0> = [String,174,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 177; @symbol_moduledef = [prompt_color_dark__background,177,15,44]; ]
+        module prompt_color_dark__background {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 177; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 178; @position = 18; @symbol_constdef = [color,178,18,23]; @symbol_type<0> = [Number,178,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 179; @position = 18; @symbol_constdef = [background,179,18,28]; @symbol_type<0> = [Number,179,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 182; @symbol_moduledef = [system_icon_destructive__hint_action_menu,182,15,56]; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 182; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 183; @position = 18; @symbol_constdef = [filename,183,18,26]; @symbol_type<0> = [String,183,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 184; @position = 18; @symbol_constdef = [dithering,184,18,27]; @symbol_type<0> = [String,184,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 185; @position = 18; @symbol_constdef = [packingFormat,185,18,31]; @symbol_type<0> = [String,185,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 188; @symbol_moduledef = [system_loc__hint_action_menu,188,15,43]; ]
+        module system_loc__hint_action_menu {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 188; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 189; @position = 18; @symbol_constdef = [x,189,18,19]; @symbol_type<0> = [Number,189,23,29]; ]
+            const x as Number = 379;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 190; @position = 18; @symbol_constdef = [y,190,18,19]; @symbol_type<0> = [Number,190,23,29]; ]
+            const y as Number = 89;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 193; @symbol_moduledef = [confirmation_icon__hint_confirm,193,15,46]; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 193; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 194; @position = 18; @symbol_constdef = [filename,194,18,26]; @symbol_type<0> = [String,194,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 195; @position = 18; @symbol_constdef = [dithering,195,18,27]; @symbol_type<0> = [String,195,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 196; @position = 18; @symbol_constdef = [packingFormat,196,18,31]; @symbol_type<0> = [String,196,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 199; @symbol_moduledef = [system_loc__hint_button_left_middle,199,15,50]; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 199; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 200; @position = 18; @symbol_constdef = [x,200,18,19]; @symbol_type<0> = [Number,200,23,29]; ]
+            const x as Number = 3;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 201; @position = 18; @symbol_constdef = [y,201,18,19]; @symbol_type<0> = [Number,201,23,29]; ]
+            const y as Number = 184;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 204; @symbol_moduledef = [prompt_size__body_no_title,204,15,41]; ]
+        module prompt_size__body_no_title {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 204; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 205; @position = 18; @symbol_constdef = [width,205,18,23]; @symbol_type<0> = [Number,205,27,33]; ]
+            const width as Number = 302;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 206; @position = 18; @symbol_constdef = [height,206,18,24]; @symbol_type<0> = [Number,206,28,34]; ]
+            const height as Number = 315;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 209; @symbol_moduledef = [system_icon_light__hint_button_left_top,209,15,54]; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 209; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 210; @position = 18; @symbol_constdef = [filename,210,18,26]; @symbol_type<0> = [String,210,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_left_top.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 211; @position = 18; @symbol_constdef = [dithering,211,18,27]; @symbol_type<0> = [String,211,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 212; @position = 18; @symbol_constdef = [packingFormat,212,18,31]; @symbol_type<0> = [String,212,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 215; @symbol_moduledef = [prompt_color_light__background,215,15,45]; ]
+        module prompt_color_light__background {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 215; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 216; @position = 18; @symbol_constdef = [color,216,18,23]; @symbol_type<0> = [Number,216,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 217; @position = 18; @symbol_constdef = [background,217,18,28]; @symbol_type<0> = [Number,217,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 220; @symbol_moduledef = [confirmation_input__delete,220,15,41]; ]
+        module confirmation_input__delete {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 220; ]
+            <init> {
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 221 18 ]
+                symbol [ WatchUi %tmp.100 221 27 34 ];
+                %tmp.100 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.101 221 35 43 ];
+                %tmp.101 = getv %tmp.100 :KEY_DOWN;
+                putv self :button %tmp.101;
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 221; @position = 18; @symbol_constdef = [button,221,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 224; @symbol_moduledef = [system_icon_dark__hint_button_left_top,224,15,53]; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 224; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 225; @position = 18; @symbol_constdef = [filename,225,18,26]; @symbol_type<0> = [String,225,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_left_top.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 226; @position = 18; @symbol_constdef = [dithering,226,18,27]; @symbol_type<0> = [String,226,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 227; @position = 18; @symbol_constdef = [packingFormat,227,18,31]; @symbol_type<0> = [String,227,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 230; @symbol_moduledef = [system_input__action_menu,230,15,40]; ]
+        module system_input__action_menu {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 230; ]
+            <init> {
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 231 18 ]
+                symbol [ WatchUi %tmp.102 231 27 34 ];
+                %tmp.102 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.103 231 35 44 ];
+                %tmp.103 = getv %tmp.102 :KEY_ENTER;
+                putv self :button %tmp.103;
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 231; @position = 18; @symbol_constdef = [button,231,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 234; @symbol_moduledef = [system_icon_light__save,234,15,38]; ]
+        module system_icon_light__save {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 234; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 235; @position = 18; @symbol_constdef = [filename,235,18,26]; @symbol_type<0> = [String,235,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__save.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 236; @position = 18; @symbol_constdef = [compress,236,18,26]; @symbol_type<0> = [String,236,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 237; @position = 18; @symbol_constdef = [dithering,237,18,27]; @symbol_type<0> = [String,237,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 238; @position = 18; @symbol_constdef = [automaticPalette,238,18,34]; @symbol_type<0> = [String,238,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 239; @position = 18; @symbol_constdef = [packingFormat,239,18,31]; @symbol_type<0> = [String,239,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 242; @symbol_moduledef = [prompt_color_light__body,242,15,39]; ]
+        module prompt_color_light__body {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 242; ]
+            <init> {
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 244 18 ]
+                symbol [ Graphics %tmp.104 244 31 39 ];
+                %tmp.104 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.105 244 40 57 ];
+                %tmp.105 = getv %tmp.104 :COLOR_TRANSPARENT;
+                putv self :background %tmp.105;
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 243; @position = 18; @symbol_constdef = [color,243,18,23]; @symbol_type<0> = [Number,243,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 244; @position = 18; @symbol_constdef = [background,244,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 247; @symbol_moduledef = [system_loc__subwindow,247,15,36]; ]
+        module system_loc__subwindow {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 247; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 248; @position = 18; @symbol_constdef = [exclude,248,18,25]; @symbol_type<0> = [Boolean,248,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 251; @symbol_moduledef = [system_icon_light__warning,251,15,41]; ]
+        module system_icon_light__warning {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 251; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 252; @position = 18; @symbol_constdef = [filename,252,18,26]; @symbol_type<0> = [String,252,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__warning.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 253; @position = 18; @symbol_constdef = [compress,253,18,26]; @symbol_type<0> = [String,253,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 254; @position = 18; @symbol_constdef = [dithering,254,18,27]; @symbol_type<0> = [String,254,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 255; @position = 18; @symbol_constdef = [automaticPalette,255,18,34]; @symbol_type<0> = [String,255,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 256; @position = 18; @symbol_constdef = [packingFormat,256,18,31]; @symbol_type<0> = [String,256,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 259; @symbol_moduledef = [confirmation_color_light__body,259,15,45]; ]
+        module confirmation_color_light__body {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 259; ]
+            <init> {
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 261 18 ]
+                symbol [ Graphics %tmp.106 261 31 39 ];
+                %tmp.106 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.107 261 40 57 ];
+                %tmp.107 = getv %tmp.106 :COLOR_TRANSPARENT;
+                putv self :background %tmp.107;
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 260; @position = 18; @symbol_constdef = [color,260,18,23]; @symbol_type<0> = [Number,260,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 261; @position = 18; @symbol_constdef = [background,261,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 264; @symbol_moduledef = [confirmation_icon_light__hint_keep,264,15,49]; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 264; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 265; @position = 18; @symbol_constdef = [filename,265,18,26]; @symbol_type<0> = [String,265,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 266; @position = 18; @symbol_constdef = [dithering,266,18,27]; @symbol_type<0> = [String,266,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 267; @position = 18; @symbol_constdef = [packingFormat,267,18,31]; @symbol_type<0> = [String,267,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 270; @symbol_moduledef = [activity_color_light__background,270,15,47]; ]
+        module activity_color_light__background {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 270; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 271; @position = 18; @symbol_constdef = [color,271,18,23]; @symbol_type<0> = [Number,271,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 272; @position = 18; @symbol_constdef = [background,272,18,28]; @symbol_type<0> = [Number,272,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 275; @symbol_moduledef = [system_icon_positive__hint_button_right_top,275,15,58]; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 275; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 276; @position = 18; @symbol_constdef = [filename,276,18,26]; @symbol_type<0> = [String,276,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_positive__hint_button_right_top.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 277; @position = 18; @symbol_constdef = [dithering,277,18,27]; @symbol_type<0> = [String,277,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 278; @position = 18; @symbol_constdef = [packingFormat,278,18,31]; @symbol_type<0> = [String,278,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 281; @symbol_moduledef = [system_size__screen,281,15,34]; ]
+        module system_size__screen {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 281; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 282; @position = 18; @symbol_constdef = [width,282,18,23]; @symbol_type<0> = [Number,282,27,33]; ]
+            const width as Number = 454;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 283; @position = 18; @symbol_constdef = [height,283,18,24]; @symbol_type<0> = [Number,283,28,34]; ]
+            const height as Number = 454;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 286; @symbol_moduledef = [system_icon_destructive__hint_button_right_bottom,286,15,64]; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 286; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 287; @position = 18; @symbol_constdef = [filename,287,18,26]; @symbol_type<0> = [String,287,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_destructive__hint_button_right_bottom.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 288; @position = 18; @symbol_constdef = [dithering,288,18,27]; @symbol_type<0> = [String,288,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 289; @position = 18; @symbol_constdef = [packingFormat,289,18,31]; @symbol_type<0> = [String,289,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 292; @symbol_moduledef = [system_color_light__background,292,15,45]; ]
+        module system_color_light__background {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 292; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 293; @position = 18; @symbol_constdef = [color,293,18,23]; @symbol_type<0> = [Number,293,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 294; @position = 18; @symbol_constdef = [background,294,18,28]; @symbol_type<0> = [Number,294,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 297; @symbol_moduledef = [system_icon_destructive__hint_button_right_top,297,15,61]; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 297; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 298; @position = 18; @symbol_constdef = [filename,298,18,26]; @symbol_type<0> = [String,298,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 299; @position = 18; @symbol_constdef = [dithering,299,18,27]; @symbol_type<0> = [String,299,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 300; @position = 18; @symbol_constdef = [packingFormat,300,18,31]; @symbol_type<0> = [String,300,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 303; @symbol_moduledef = [confirmation_loc__hint_confirm,303,15,45]; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 303; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 304; @position = 18; @symbol_constdef = [x,304,18,19]; @symbol_type<0> = [Number,304,23,29]; ]
+            const x as Number = 379;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 305; @position = 18; @symbol_constdef = [y,305,18,19]; @symbol_type<0> = [Number,305,23,29]; ]
+            const y as Number = 89;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 308; @symbol_moduledef = [activity_color_dark__text,308,15,40]; ]
+        module activity_color_dark__text {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 308; ]
+            <init> {
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 310 18 ]
+                symbol [ Graphics %tmp.108 310 31 39 ];
+                %tmp.108 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.109 310 40 57 ];
+                %tmp.109 = getv %tmp.108 :COLOR_TRANSPARENT;
+                putv self :background %tmp.109;
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 309; @position = 18; @symbol_constdef = [color,309,18,23]; @symbol_type<0> = [Number,309,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 310; @position = 18; @symbol_constdef = [background,310,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 313; @symbol_moduledef = [confirmation_input__keep,313,15,39]; ]
+        module confirmation_input__keep {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 313; ]
+            <init> {
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 314 18 ]
+                symbol [ WatchUi %tmp.110 314 27 34 ];
+                %tmp.110 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ESC %tmp.111 314 35 42 ];
+                %tmp.111 = getv %tmp.110 :KEY_ESC;
+                putv self :button %tmp.111;
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 314; @position = 18; @symbol_constdef = [button,314,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 317; @symbol_moduledef = [prompt_loc__body_with_title,317,15,42]; ]
+        module prompt_loc__body_with_title {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 317; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 318; @position = 18; @symbol_constdef = [x,318,18,19]; @symbol_type<0> = [Number,318,23,29]; ]
+            const x as Number = 76;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 319; @position = 18; @symbol_constdef = [y,319,18,19]; @symbol_type<0> = [Number,319,23,29]; ]
+            const y as Number = 131;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 322; @symbol_moduledef = [system_icon_dark__search,322,15,39]; ]
+        module system_icon_dark__search {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 322; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 323; @position = 18; @symbol_constdef = [filename,323,18,26]; @symbol_type<0> = [String,323,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__search.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 324; @position = 18; @symbol_constdef = [compress,324,18,26]; @symbol_type<0> = [String,324,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 325; @position = 18; @symbol_constdef = [dithering,325,18,27]; @symbol_type<0> = [String,325,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 326; @position = 18; @symbol_constdef = [automaticPalette,326,18,34]; @symbol_type<0> = [String,326,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 327; @position = 18; @symbol_constdef = [packingFormat,327,18,31]; @symbol_type<0> = [String,327,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 330; @symbol_moduledef = [activity_color_light__text,330,15,41]; ]
+        module activity_color_light__text {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 330; ]
+            <init> {
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 332 18 ]
+                symbol [ Graphics %tmp.112 332 31 39 ];
+                %tmp.112 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.113 332 40 57 ];
+                %tmp.113 = getv %tmp.112 :COLOR_TRANSPARENT;
+                putv self :background %tmp.113;
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 331; @position = 18; @symbol_constdef = [color,331,18,23]; @symbol_type<0> = [Number,331,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 332; @position = 18; @symbol_constdef = [background,332,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 335; @symbol_moduledef = [confirmation_icon__hint_keep,335,15,43]; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 335; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 336; @position = 18; @symbol_constdef = [filename,336,18,26]; @symbol_type<0> = [String,336,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 337; @position = 18; @symbol_constdef = [dithering,337,18,27]; @symbol_type<0> = [String,337,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 338; @position = 18; @symbol_constdef = [packingFormat,338,18,31]; @symbol_type<0> = [String,338,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 341; @symbol_moduledef = [system_icon_dark__save,341,15,37]; ]
+        module system_icon_dark__save {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 341; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 342; @position = 18; @symbol_constdef = [filename,342,18,26]; @symbol_type<0> = [String,342,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__save.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 343; @position = 18; @symbol_constdef = [compress,343,18,26]; @symbol_type<0> = [String,343,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 344; @position = 18; @symbol_constdef = [dithering,344,18,27]; @symbol_type<0> = [String,344,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 345; @position = 18; @symbol_constdef = [automaticPalette,345,18,34]; @symbol_type<0> = [String,345,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 346; @position = 18; @symbol_constdef = [packingFormat,346,18,31]; @symbol_type<0> = [String,346,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 349; @symbol_moduledef = [system_icon_destructive__hint_button_left_middle,349,15,63]; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 349; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 350; @position = 18; @symbol_constdef = [filename,350,18,26]; @symbol_type<0> = [String,350,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_destructive__hint_button_left_middle.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 351; @position = 18; @symbol_constdef = [dithering,351,18,27]; @symbol_type<0> = [String,351,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 352; @position = 18; @symbol_constdef = [packingFormat,352,18,31]; @symbol_type<0> = [String,352,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 355; @symbol_moduledef = [system_icon_light__search,355,15,40]; ]
+        module system_icon_light__search {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 355; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 356; @position = 18; @symbol_constdef = [filename,356,18,26]; @symbol_type<0> = [String,356,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__search.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 357; @position = 18; @symbol_constdef = [compress,357,18,26]; @symbol_type<0> = [String,357,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 358; @position = 18; @symbol_constdef = [dithering,358,18,27]; @symbol_type<0> = [String,358,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 359; @position = 18; @symbol_constdef = [automaticPalette,359,18,34]; @symbol_type<0> = [String,359,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 360; @position = 18; @symbol_constdef = [packingFormat,360,18,31]; @symbol_type<0> = [String,360,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 363; @symbol_moduledef = [system_icon_dark__hint_button_left_bottom,363,15,56]; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 363; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 364; @position = 18; @symbol_constdef = [filename,364,18,26]; @symbol_type<0> = [String,364,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_left_bottom.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 365; @position = 18; @symbol_constdef = [dithering,365,18,27]; @symbol_type<0> = [String,365,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 366; @position = 18; @symbol_constdef = [packingFormat,366,18,31]; @symbol_type<0> = [String,366,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 369; @symbol_moduledef = [system_icon_positive__hint_button_left_top,369,15,57]; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 369; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 370; @position = 18; @symbol_constdef = [filename,370,18,26]; @symbol_type<0> = [String,370,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_positive__hint_button_left_top.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 371; @position = 18; @symbol_constdef = [dithering,371,18,27]; @symbol_type<0> = [String,371,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 372; @position = 18; @symbol_constdef = [packingFormat,372,18,31]; @symbol_type<0> = [String,372,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 375; @symbol_moduledef = [system_loc__hint_button_right_bottom,375,15,51]; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 375; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 376; @position = 18; @symbol_constdef = [x,376,18,19]; @symbol_type<0> = [Number,376,23,29]; ]
+            const x as Number = 369;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 377; @position = 18; @symbol_constdef = [y,377,18,19]; @symbol_type<0> = [Number,377,23,29]; ]
+            const y as Number = 283;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 380; @symbol_moduledef = [confirmation_icon_dark__hint_reject,380,15,50]; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 380; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 381; @position = 18; @symbol_constdef = [filename,381,18,26]; @symbol_type<0> = [String,381,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 382; @position = 18; @symbol_constdef = [dithering,382,18,27]; @symbol_type<0> = [String,382,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 383; @position = 18; @symbol_constdef = [packingFormat,383,18,31]; @symbol_type<0> = [String,383,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 386; @symbol_moduledef = [confirmation_color_dark__body,386,15,44]; ]
+        module confirmation_color_dark__body {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 386; ]
+            <init> {
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 388 18 ]
+                symbol [ Graphics %tmp.114 388 31 39 ];
+                %tmp.114 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.115 388 40 57 ];
+                %tmp.115 = getv %tmp.114 :COLOR_TRANSPARENT;
+                putv self :background %tmp.115;
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 387; @position = 18; @symbol_constdef = [color,387,18,23]; @symbol_type<0> = [Number,387,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 388; @position = 18; @symbol_constdef = [background,388,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 391; @symbol_moduledef = [confirmation_icon_light__hint_confirm,391,15,52]; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 391; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 392; @position = 18; @symbol_constdef = [filename,392,18,26]; @symbol_type<0> = [String,392,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 393; @position = 18; @symbol_constdef = [dithering,393,18,27]; @symbol_type<0> = [String,393,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 394; @position = 18; @symbol_constdef = [packingFormat,394,18,31]; @symbol_type<0> = [String,394,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 397; @symbol_moduledef = [prompt_color_dark__title,397,15,39]; ]
+        module prompt_color_dark__title {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 397; ]
+            <init> {
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 399 18 ]
+                symbol [ Graphics %tmp.116 399 31 39 ];
+                %tmp.116 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.117 399 40 57 ];
+                %tmp.117 = getv %tmp.116 :COLOR_TRANSPARENT;
+                putv self :background %tmp.117;
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 398; @position = 18; @symbol_constdef = [color,398,18,23]; @symbol_type<0> = [Number,398,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 399; @position = 18; @symbol_constdef = [background,399,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 402; @symbol_moduledef = [system_icon_destructive__cancel,402,15,46]; ]
+        module system_icon_destructive__cancel {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 402; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 403; @position = 18; @symbol_constdef = [filename,403,18,26]; @symbol_type<0> = [String,403,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_destructive__cancel.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 404; @position = 18; @symbol_constdef = [dithering,404,18,27]; @symbol_type<0> = [String,404,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 405; @position = 18; @symbol_constdef = [packingFormat,405,18,31]; @symbol_type<0> = [String,405,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 408; @symbol_moduledef = [system_icon_light__hint_button_right_bottom,408,15,58]; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 408; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 409; @position = 18; @symbol_constdef = [filename,409,18,26]; @symbol_type<0> = [String,409,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 410; @position = 18; @symbol_constdef = [dithering,410,18,27]; @symbol_type<0> = [String,410,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 411; @position = 18; @symbol_constdef = [packingFormat,411,18,31]; @symbol_type<0> = [String,411,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 414; @symbol_moduledef = [prompt_loc__title,414,15,32]; ]
+        module prompt_loc__title {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 414; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 415; @position = 18; @symbol_constdef = [x,415,18,19]; @symbol_type<0> = [Number,415,23,29]; ]
+            const x as Number = 83;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 416; @position = 18; @symbol_constdef = [y,416,18,19]; @symbol_type<0> = [Number,416,23,29]; ]
+            const y as Number = 34;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 419; @symbol_moduledef = [confirmation_font_enhanced_readability__body,419,15,59]; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 419; ]
+            <init> {
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 420 18 ]
+                symbol [ Graphics %tmp.118 420 34 42 ];
+                %tmp.118 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.119 420 43 62 ];
+                %tmp.119 = getv %tmp.118 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.120 420 63 71 ];
+                %tmp.120 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.121 420 72 92 ];
+                %tmp.121 = getv %tmp.120 :TEXT_JUSTIFY_VCENTER;
+                %tmp.122 = bitor %tmp.119 %tmp.121;
+                putv self :justification %tmp.122;
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 421 18 ]
+                symbol [ Graphics %tmp.123 421 25 33 ];
+                %tmp.123 = getm $.Toybox.Graphics;
+                symbol [ FONT_SMALL %tmp.124 421 34 44 ];
+                %tmp.124 = getv %tmp.123 :FONT_SMALL;
+                putv self :font %tmp.124;
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 420; @position = 18; @symbol_constdef = [justification,420,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 421; @position = 18; @symbol_constdef = [font,421,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 424; @symbol_moduledef = [prompt_color_light__title,424,15,40]; ]
+        module prompt_color_light__title {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 424; ]
+            <init> {
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 426 18 ]
+                symbol [ Graphics %tmp.125 426 31 39 ];
+                %tmp.125 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.126 426 40 57 ];
+                %tmp.126 = getv %tmp.125 :COLOR_TRANSPARENT;
+                putv self :background %tmp.126;
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 425; @position = 18; @symbol_constdef = [color,425,18,23]; @symbol_type<0> = [Number,425,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 426; @position = 18; @symbol_constdef = [background,426,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 429; @symbol_moduledef = [system_icon_dark__hint_button_right_top,429,15,54]; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 429; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 430; @position = 18; @symbol_constdef = [filename,430,18,26]; @symbol_type<0> = [String,430,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 431; @position = 18; @symbol_constdef = [dithering,431,18,27]; @symbol_type<0> = [String,431,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 432; @position = 18; @symbol_constdef = [packingFormat,432,18,31]; @symbol_type<0> = [String,432,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 435; @symbol_moduledef = [system_icon_dark__hint_button_left_middle,435,15,56]; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 435; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 436; @position = 18; @symbol_constdef = [filename,436,18,26]; @symbol_type<0> = [String,436,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_left_middle.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 437; @position = 18; @symbol_constdef = [dithering,437,18,27]; @symbol_type<0> = [String,437,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 438; @position = 18; @symbol_constdef = [packingFormat,438,18,31]; @symbol_type<0> = [String,438,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 441; @symbol_moduledef = [confirmation_icon_dark__hint_keep,441,15,48]; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 441; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 442; @position = 18; @symbol_constdef = [filename,442,18,26]; @symbol_type<0> = [String,442,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 443; @position = 18; @symbol_constdef = [dithering,443,18,27]; @symbol_type<0> = [String,443,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 444; @position = 18; @symbol_constdef = [packingFormat,444,18,31]; @symbol_type<0> = [String,444,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 447; @symbol_moduledef = [system_icon_light__cancel,447,15,40]; ]
+        module system_icon_light__cancel {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 447; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 448; @position = 18; @symbol_constdef = [filename,448,18,26]; @symbol_type<0> = [String,448,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__cancel.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 449; @position = 18; @symbol_constdef = [compress,449,18,26]; @symbol_type<0> = [String,449,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 450; @position = 18; @symbol_constdef = [dithering,450,18,27]; @symbol_type<0> = [String,450,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 451; @position = 18; @symbol_constdef = [automaticPalette,451,18,34]; @symbol_type<0> = [String,451,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 452; @position = 18; @symbol_constdef = [packingFormat,452,18,31]; @symbol_type<0> = [String,452,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 455; @symbol_moduledef = [confirmation_icon_light__hint_reject,455,15,51]; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 455; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 456; @position = 18; @symbol_constdef = [filename,456,18,26]; @symbol_type<0> = [String,456,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 457; @position = 18; @symbol_constdef = [dithering,457,18,27]; @symbol_type<0> = [String,457,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 458; @position = 18; @symbol_constdef = [packingFormat,458,18,31]; @symbol_type<0> = [String,458,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 461; @symbol_moduledef = [system_icon_light__about,461,15,39]; ]
+        module system_icon_light__about {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 461; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 462; @position = 18; @symbol_constdef = [filename,462,18,26]; @symbol_type<0> = [String,462,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__about.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 463; @position = 18; @symbol_constdef = [compress,463,18,26]; @symbol_type<0> = [String,463,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 464; @position = 18; @symbol_constdef = [dithering,464,18,27]; @symbol_type<0> = [String,464,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 465; @position = 18; @symbol_constdef = [automaticPalette,465,18,34]; @symbol_type<0> = [String,465,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 466; @position = 18; @symbol_constdef = [packingFormat,466,18,31]; @symbol_type<0> = [String,466,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 469; @symbol_moduledef = [system_size__toast_icon,469,15,38]; ]
+        module system_size__toast_icon {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 469; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 470; @position = 18; @symbol_constdef = [scaleX,470,18,24]; @symbol_type<0> = [Number,470,28,34]; ]
+            const scaleX as Number = 45;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 471; @position = 18; @symbol_constdef = [scaleY,471,18,24]; @symbol_type<0> = [Number,471,28,34]; ]
+            const scaleY as Number = 45;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 472; @position = 18; @symbol_constdef = [scaleRelativeTo,472,18,33]; @symbol_type<0> = [String,472,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 475; @symbol_moduledef = [system_icon_dark__hint_button_right_middle,475,15,57]; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 475; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 476; @position = 18; @symbol_constdef = [exclude,476,18,25]; @symbol_type<0> = [Boolean,476,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 479; @symbol_moduledef = [confirmation_icon__hint_reject,479,15,45]; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 479; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 480; @position = 18; @symbol_constdef = [filename,480,18,26]; @symbol_type<0> = [String,480,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 481; @position = 18; @symbol_constdef = [dithering,481,18,27]; @symbol_type<0> = [String,481,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 482; @position = 18; @symbol_constdef = [packingFormat,482,18,31]; @symbol_type<0> = [String,482,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 485; @symbol_moduledef = [system_icon_light__hint_action_menu,485,15,50]; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 485; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 486; @position = 18; @symbol_constdef = [filename,486,18,26]; @symbol_type<0> = [String,486,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 487; @position = 18; @symbol_constdef = [dithering,487,18,27]; @symbol_type<0> = [String,487,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 488; @position = 18; @symbol_constdef = [packingFormat,488,18,31]; @symbol_type<0> = [String,488,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 491; @symbol_moduledef = [system_icon_light__hint_button_right_middle,491,15,58]; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 491; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 492; @position = 18; @symbol_constdef = [exclude,492,18,25]; @symbol_type<0> = [Boolean,492,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 495; @symbol_moduledef = [system_icon_destructive__hint_button_right_middle,495,15,64]; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 495; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 496; @position = 18; @symbol_constdef = [exclude,496,18,25]; @symbol_type<0> = [Boolean,496,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 499; @symbol_moduledef = [confirmation_loc__hint_reject,499,15,44]; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 499; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 500; @position = 18; @symbol_constdef = [x,500,18,19]; @symbol_type<0> = [Number,500,23,29]; ]
+            const x as Number = 16;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 501; @position = 18; @symbol_constdef = [y,501,18,19]; @symbol_type<0> = [Number,501,23,29]; ]
+            const y as Number = 284;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 504; @symbol_moduledef = [confirmation_icon_dark__hint_delete,504,15,50]; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 504; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 505; @position = 18; @symbol_constdef = [filename,505,18,26]; @symbol_type<0> = [String,505,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 506; @position = 18; @symbol_constdef = [dithering,506,18,27]; @symbol_type<0> = [String,506,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 507; @position = 18; @symbol_constdef = [packingFormat,507,18,31]; @symbol_type<0> = [String,507,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 510; @symbol_moduledef = [activity_color_dark__background,510,15,46]; ]
+        module activity_color_dark__background {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 510; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 511; @position = 18; @symbol_constdef = [color,511,18,23]; @symbol_type<0> = [Number,511,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 512; @position = 18; @symbol_constdef = [background,512,18,28]; @symbol_type<0> = [Number,512,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 515; @symbol_moduledef = [system_icon_light__hint_button_left_bottom,515,15,57]; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 515; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 516; @position = 18; @symbol_constdef = [filename,516,18,26]; @symbol_type<0> = [String,516,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_left_bottom.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 517; @position = 18; @symbol_constdef = [dithering,517,18,27]; @symbol_type<0> = [String,517,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 518; @position = 18; @symbol_constdef = [packingFormat,518,18,31]; @symbol_type<0> = [String,518,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 521; @symbol_moduledef = [system_icon_positive__hint_button_left_middle,521,15,60]; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 521; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 522; @position = 18; @symbol_constdef = [filename,522,18,26]; @symbol_type<0> = [String,522,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_positive__hint_button_left_middle.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 523; @position = 18; @symbol_constdef = [dithering,523,18,27]; @symbol_type<0> = [String,523,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 524; @position = 18; @symbol_constdef = [packingFormat,524,18,31]; @symbol_type<0> = [String,524,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 527; @symbol_moduledef = [system_size__menu_icon,527,15,37]; ]
+        module system_size__menu_icon {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 527; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 528; @position = 18; @symbol_constdef = [scaleX,528,18,24]; @symbol_type<0> = [Number,528,28,34]; ]
+            const scaleX as Number = 55;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 529; @position = 18; @symbol_constdef = [scaleY,529,18,24]; @symbol_type<0> = [Number,529,28,34]; ]
+            const scaleY as Number = 55;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 530; @position = 18; @symbol_constdef = [scaleRelativeTo,530,18,33]; @symbol_type<0> = [String,530,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 533; @symbol_moduledef = [system_icon_destructive__warning,533,15,47]; ]
+        module system_icon_destructive__warning {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 533; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 534; @position = 18; @symbol_constdef = [filename,534,18,26]; @symbol_type<0> = [String,534,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_destructive__warning.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 535; @position = 18; @symbol_constdef = [dithering,535,18,27]; @symbol_type<0> = [String,535,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 536; @position = 18; @symbol_constdef = [packingFormat,536,18,31]; @symbol_type<0> = [String,536,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 539; @symbol_moduledef = [system_loc__hint_button_right_middle,539,15,51]; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 539; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 540; @position = 18; @symbol_constdef = [exclude,540,18,25]; @symbol_type<0> = [Boolean,540,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 543; @symbol_moduledef = [system_icon_dark__cancel,543,15,39]; ]
+        module system_icon_dark__cancel {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 543; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 544; @position = 18; @symbol_constdef = [filename,544,18,26]; @symbol_type<0> = [String,544,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__cancel.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 545; @position = 18; @symbol_constdef = [compress,545,18,26]; @symbol_type<0> = [String,545,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 546; @position = 18; @symbol_constdef = [dithering,546,18,27]; @symbol_type<0> = [String,546,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 547; @position = 18; @symbol_constdef = [automaticPalette,547,18,34]; @symbol_type<0> = [String,547,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 548; @position = 18; @symbol_constdef = [packingFormat,548,18,31]; @symbol_type<0> = [String,548,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 551; @symbol_moduledef = [prompt_size__body_with_title,551,15,43]; ]
+        module prompt_size__body_with_title {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 551; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 552; @position = 18; @symbol_constdef = [width,552,18,23]; @symbol_type<0> = [Number,552,27,33]; ]
+            const width as Number = 302;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 553; @position = 18; @symbol_constdef = [height,553,18,24]; @symbol_type<0> = [Number,553,28,34]; ]
+            const height as Number = 254;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 556; @symbol_moduledef = [system_loc__hint_button_right_top,556,15,48]; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 556; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 557; @position = 18; @symbol_constdef = [x,557,18,19]; @symbol_type<0> = [Number,557,23,29]; ]
+            const x as Number = 379;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 558; @position = 18; @symbol_constdef = [y,558,18,19]; @symbol_type<0> = [Number,558,23,29]; ]
+            const y as Number = 89;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 561; @symbol_moduledef = [system_color_light__text,561,15,39]; ]
+        module system_color_light__text {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 561; ]
+            <init> {
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 563 18 ]
+                symbol [ Graphics %tmp.127 563 31 39 ];
+                %tmp.127 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.128 563 40 57 ];
+                %tmp.128 = getv %tmp.127 :COLOR_TRANSPARENT;
+                putv self :background %tmp.128;
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 562; @position = 18; @symbol_constdef = [color,562,18,23]; @symbol_type<0> = [Number,562,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 563; @position = 18; @symbol_constdef = [background,563,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 566; @symbol_moduledef = [system_icon_light__check,566,15,39]; ]
+        module system_icon_light__check {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 566; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 567; @position = 18; @symbol_constdef = [filename,567,18,26]; @symbol_type<0> = [String,567,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__check.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 568; @position = 18; @symbol_constdef = [compress,568,18,26]; @symbol_type<0> = [String,568,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 569; @position = 18; @symbol_constdef = [dithering,569,18,27]; @symbol_type<0> = [String,569,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 570; @position = 18; @symbol_constdef = [automaticPalette,570,18,34]; @symbol_type<0> = [String,570,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 571; @position = 18; @symbol_constdef = [packingFormat,571,18,31]; @symbol_type<0> = [String,571,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 574; @symbol_moduledef = [confirmation_input__reject,574,15,41]; ]
+        module confirmation_input__reject {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 574; ]
+            <init> {
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 575 18 ]
+                symbol [ WatchUi %tmp.129 575 27 34 ];
+                %tmp.129 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.130 575 35 43 ];
+                %tmp.130 = getv %tmp.129 :KEY_DOWN;
+                putv self :button %tmp.130;
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 575; @position = 18; @symbol_constdef = [button,575,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 578; @symbol_moduledef = [system_icon_light__revert,578,15,40]; ]
+        module system_icon_light__revert {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 578; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 579; @position = 18; @symbol_constdef = [filename,579,18,26]; @symbol_type<0> = [String,579,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__revert.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 580; @position = 18; @symbol_constdef = [compress,580,18,26]; @symbol_type<0> = [String,580,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 581; @position = 18; @symbol_constdef = [dithering,581,18,27]; @symbol_type<0> = [String,581,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 582; @position = 18; @symbol_constdef = [automaticPalette,582,18,34]; @symbol_type<0> = [String,582,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 583; @position = 18; @symbol_constdef = [packingFormat,583,18,31]; @symbol_type<0> = [String,583,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 586; @symbol_moduledef = [system_size__subwindow,586,15,37]; ]
+        module system_size__subwindow {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 586; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 587; @position = 18; @symbol_constdef = [exclude,587,18,25]; @symbol_type<0> = [Boolean,587,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 590; @symbol_moduledef = [system_icon_positive__hint_button_left_bottom,590,15,60]; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 590; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 591; @position = 18; @symbol_constdef = [filename,591,18,26]; @symbol_type<0> = [String,591,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_positive__hint_button_left_bottom.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 592; @position = 18; @symbol_constdef = [dithering,592,18,27]; @symbol_type<0> = [String,592,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 593; @position = 18; @symbol_constdef = [packingFormat,593,18,31]; @symbol_type<0> = [String,593,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 596; @symbol_moduledef = [system_icon_dark__check,596,15,38]; ]
+        module system_icon_dark__check {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 596; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 597; @position = 18; @symbol_constdef = [filename,597,18,26]; @symbol_type<0> = [String,597,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__check.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 598; @position = 18; @symbol_constdef = [compress,598,18,26]; @symbol_type<0> = [String,598,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 599; @position = 18; @symbol_constdef = [dithering,599,18,27]; @symbol_type<0> = [String,599,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 600; @position = 18; @symbol_constdef = [automaticPalette,600,18,34]; @symbol_type<0> = [String,600,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 601; @position = 18; @symbol_constdef = [packingFormat,601,18,31]; @symbol_type<0> = [String,601,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 604; @symbol_moduledef = [confirmation_loc__hint_keep,604,15,42]; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 604; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 605; @position = 18; @symbol_constdef = [x,605,18,19]; @symbol_type<0> = [Number,605,23,29]; ]
+            const x as Number = 372;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 606; @position = 18; @symbol_constdef = [y,606,18,19]; @symbol_type<0> = [Number,606,23,29]; ]
+            const y as Number = 286;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 609; @symbol_moduledef = [confirmation_loc__hint_delete,609,15,44]; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 609; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 610; @position = 18; @symbol_constdef = [x,610,18,19]; @symbol_type<0> = [Number,610,23,29]; ]
+            const x as Number = 16;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 611; @position = 18; @symbol_constdef = [y,611,18,19]; @symbol_type<0> = [Number,611,23,29]; ]
+            const y as Number = 284;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 614; @symbol_moduledef = [system_icon_positive__hint_action_menu,614,15,53]; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 614; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 615; @position = 18; @symbol_constdef = [filename,615,18,26]; @symbol_type<0> = [String,615,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_positive__hint_button_right_top.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 616; @position = 18; @symbol_constdef = [dithering,616,18,27]; @symbol_type<0> = [String,616,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 617; @position = 18; @symbol_constdef = [packingFormat,617,18,31]; @symbol_type<0> = [String,617,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 620; @symbol_moduledef = [system_icon_positive__hint_button_right_middle,620,15,61]; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 620; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 621; @position = 18; @symbol_constdef = [exclude,621,18,25]; @symbol_type<0> = [Boolean,621,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 624; @symbol_moduledef = [system_icon_light__hint_button_left_middle,624,15,57]; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 624; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 625; @position = 18; @symbol_constdef = [filename,625,18,26]; @symbol_type<0> = [String,625,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_left_middle.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 626; @position = 18; @symbol_constdef = [dithering,626,18,27]; @symbol_type<0> = [String,626,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 627; @position = 18; @symbol_constdef = [packingFormat,627,18,31]; @symbol_type<0> = [String,627,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 630; @symbol_moduledef = [system_icon_dark__hint_button_right_bottom,630,15,57]; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 630; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 631; @position = 18; @symbol_constdef = [filename,631,18,26]; @symbol_type<0> = [String,631,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 632; @position = 18; @symbol_constdef = [dithering,632,18,27]; @symbol_type<0> = [String,632,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 633; @position = 18; @symbol_constdef = [packingFormat,633,18,31]; @symbol_type<0> = [String,633,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 636; @symbol_moduledef = [system_icon_positive__hint_button_right_bottom,636,15,61]; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 636; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 637; @position = 18; @symbol_constdef = [filename,637,18,26]; @symbol_type<0> = [String,637,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 638; @position = 18; @symbol_constdef = [dithering,638,18,27]; @symbol_type<0> = [String,638,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 639; @position = 18; @symbol_constdef = [packingFormat,639,18,31]; @symbol_type<0> = [String,639,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 642; @symbol_moduledef = [system_icon_dark__revert,642,15,39]; ]
+        module system_icon_dark__revert {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 642; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 643; @position = 18; @symbol_constdef = [filename,643,18,26]; @symbol_type<0> = [String,643,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__revert.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 644; @position = 18; @symbol_constdef = [compress,644,18,26]; @symbol_type<0> = [String,644,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 645; @position = 18; @symbol_constdef = [dithering,645,18,27]; @symbol_type<0> = [String,645,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 646; @position = 18; @symbol_constdef = [automaticPalette,646,18,34]; @symbol_type<0> = [String,646,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 647; @position = 18; @symbol_constdef = [packingFormat,647,18,31]; @symbol_type<0> = [String,647,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 650; @symbol_moduledef = [confirmation_icon_light__hint_delete,650,15,51]; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 650; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 651; @position = 18; @symbol_constdef = [filename,651,18,26]; @symbol_type<0> = [String,651,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 652; @position = 18; @symbol_constdef = [dithering,652,18,27]; @symbol_type<0> = [String,652,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 653; @position = 18; @symbol_constdef = [packingFormat,653,18,31]; @symbol_type<0> = [String,653,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 656; @symbol_moduledef = [system_icon_dark__question,656,15,41]; ]
+        module system_icon_dark__question {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 656; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 657; @position = 18; @symbol_constdef = [filename,657,18,26]; @symbol_type<0> = [String,657,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__question.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 658; @position = 18; @symbol_constdef = [compress,658,18,26]; @symbol_type<0> = [String,658,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 659; @position = 18; @symbol_constdef = [dithering,659,18,27]; @symbol_type<0> = [String,659,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 660; @position = 18; @symbol_constdef = [automaticPalette,660,18,34]; @symbol_type<0> = [String,660,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 661; @position = 18; @symbol_constdef = [packingFormat,661,18,31]; @symbol_type<0> = [String,661,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 664; @symbol_moduledef = [system_icon_light__discard,664,15,41]; ]
+        module system_icon_light__discard {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 664; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 665; @position = 18; @symbol_constdef = [filename,665,18,26]; @symbol_type<0> = [String,665,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__discard.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 666; @position = 18; @symbol_constdef = [compress,666,18,26]; @symbol_type<0> = [String,666,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 667; @position = 18; @symbol_constdef = [dithering,667,18,27]; @symbol_type<0> = [String,667,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 668; @position = 18; @symbol_constdef = [automaticPalette,668,18,34]; @symbol_type<0> = [String,668,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 669; @position = 18; @symbol_constdef = [packingFormat,669,18,31]; @symbol_type<0> = [String,669,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 672; @symbol_moduledef = [device_info,672,15,26]; ]
+        module device_info {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 672; ]
+            <init> {
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 674 18 ]
+                symbol [ Toybox %tmp.132 674 32 38 ];
+                %tmp.132 = getv ? :Toybox;
+                symbol [ System %tmp.133 674 39 45 ];
+                %tmp.133 = getv %tmp.132 :System;
+                symbol [ SCREEN_SHAPE_ROUND %tmp.134 674 46 64 ];
+                %tmp.134 = getv %tmp.133 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.134;
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 673; @position = 18; @symbol_constdef = [screenWidth,673,18,29]; @symbol_type<0> = [Number,673,33,39]; ]
+            const screenWidth as Number = 454;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 674; @position = 18; @symbol_constdef = [screenShape,674,18,29]; ]
+            const screenShape;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 675; @position = 18; @symbol_constdef = [hasNightMode,675,18,30]; @symbol_type<0> = [Boolean,675,34,41]; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 676; @position = 18; @symbol_constdef = [hasGpu,676,18,24]; @symbol_type<0> = [Boolean,676,28,35]; ]
+            const hasGpu as Boolean = true;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 677; @position = 18; @symbol_constdef = [screenHeight,677,18,30]; @symbol_type<0> = [Number,677,34,40]; ]
+            const screenHeight as Number = 454;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 678; @position = 18; @symbol_constdef = [hasTouchScreen,678,18,32]; @symbol_type<0> = [Boolean,678,36,43]; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 679; @position = 18; @symbol_constdef = [hasEnhancedReadabilityMode,679,18,44]; @symbol_type<0> = [Boolean,679,48,55]; ]
+            const hasEnhancedReadabilityMode as Boolean = true;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 682; @symbol_moduledef = [confirmation_icon_dark__hint_confirm,682,15,51]; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 682; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 683; @position = 18; @symbol_constdef = [filename,683,18,26]; @symbol_type<0> = [String,683,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 684; @position = 18; @symbol_constdef = [dithering,684,18,27]; @symbol_type<0> = [String,684,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 685; @position = 18; @symbol_constdef = [packingFormat,685,18,31]; @symbol_type<0> = [String,685,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 688; @symbol_moduledef = [prompt_font__body_no_title,688,15,41]; ]
+        module prompt_font__body_no_title {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 688; ]
+            <init> {
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 689 18 ]
+                symbol [ Graphics %tmp.135 689 34 42 ];
+                %tmp.135 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.136 689 43 62 ];
+                %tmp.136 = getv %tmp.135 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.137 689 63 71 ];
+                %tmp.137 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.138 689 72 92 ];
+                %tmp.138 = getv %tmp.137 :TEXT_JUSTIFY_VCENTER;
+                %tmp.139 = bitor %tmp.136 %tmp.138;
+                putv self :justification %tmp.139;
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 690 18 ]
+                symbol [ Graphics %tmp.140 690 25 33 ];
+                %tmp.140 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.141 690 34 44 ];
+                %tmp.141 = getv %tmp.140 :FONT_XTINY;
+                putv self :font %tmp.141;
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 689; @position = 18; @symbol_constdef = [justification,689,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 690; @position = 18; @symbol_constdef = [font,690,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 693; @symbol_moduledef = [prompt_size__title_icon,693,15,38]; ]
+        module prompt_size__title_icon {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 693; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 694; @position = 18; @symbol_constdef = [scaleX,694,18,24]; @symbol_type<0> = [Float,694,28,33]; ]
+            const scaleX as Float = 0.13;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 695; @position = 18; @symbol_constdef = [scaleRelativeTo,695,18,33]; @symbol_type<0> = [String,695,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 698; @symbol_moduledef = [system_icon_dark__warning,698,15,40]; ]
+        module system_icon_dark__warning {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 698; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 699; @position = 18; @symbol_constdef = [filename,699,18,26]; @symbol_type<0> = [String,699,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__warning.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 700; @position = 18; @symbol_constdef = [compress,700,18,26]; @symbol_type<0> = [String,700,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 701; @position = 18; @symbol_constdef = [dithering,701,18,27]; @symbol_type<0> = [String,701,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 702; @position = 18; @symbol_constdef = [automaticPalette,702,18,34]; @symbol_type<0> = [String,702,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 703; @position = 18; @symbol_constdef = [packingFormat,703,18,31]; @symbol_type<0> = [String,703,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 706; @symbol_moduledef = [prompt_loc__title_icon,706,15,37]; ]
+        module prompt_loc__title_icon {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 706; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 707; @position = 18; @symbol_constdef = [x,707,18,19]; @symbol_type<0> = [Number,707,23,29]; ]
+            const x as Number = 227;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 708; @position = 18; @symbol_constdef = [y,708,18,19]; @symbol_type<0> = [Number,708,23,29]; ]
+            const y as Number = 46;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 709; @position = 18; @symbol_constdef = [horizontalJustification,709,18,41]; @symbol_type<0> = [String,709,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 710; @position = 18; @symbol_constdef = [verticalJustification,710,18,39]; @symbol_type<0> = [String,710,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 713; @symbol_moduledef = [prompt_font_enhanced_readability__title,713,15,54]; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 713; ]
+            <init> {
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 714 18 ]
+                symbol [ Graphics %tmp.142 714 34 42 ];
+                %tmp.142 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.143 714 43 62 ];
+                %tmp.143 = getv %tmp.142 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.144 714 63 71 ];
+                %tmp.144 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.145 714 72 92 ];
+                %tmp.145 = getv %tmp.144 :TEXT_JUSTIFY_VCENTER;
+                %tmp.146 = bitor %tmp.143 %tmp.145;
+                putv self :justification %tmp.146;
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 715 18 ]
+                symbol [ Graphics %tmp.147 715 25 33 ];
+                %tmp.147 = getm $.Toybox.Graphics;
+                symbol [ FONT_MEDIUM %tmp.148 715 34 45 ];
+                %tmp.148 = getv %tmp.147 :FONT_MEDIUM;
+                putv self :font %tmp.148;
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 714; @position = 18; @symbol_constdef = [justification,714,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 715; @position = 18; @symbol_constdef = [font,715,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 718; @symbol_moduledef = [prompt_color_dark__body,718,15,38]; ]
+        module prompt_color_dark__body {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 718; ]
+            <init> {
+[ "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen" 720 18 ]
+                symbol [ Graphics %tmp.149 720 31 39 ];
+                %tmp.149 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.150 720 40 57 ];
+                %tmp.150 = getv %tmp.149 :COLOR_TRANSPARENT;
+                putv self :background %tmp.150;
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 719; @position = 18; @symbol_constdef = [color,719,18,23]; @symbol_type<0> = [Number,719,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 720; @position = 18; @symbol_constdef = [background,720,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 723; @symbol_moduledef = [confirmation_icon__hint_delete,723,15,45]; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 723; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 724; @position = 18; @symbol_constdef = [filename,724,18,26]; @symbol_type<0> = [String,724,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 725; @position = 18; @symbol_constdef = [dithering,725,18,27]; @symbol_type<0> = [String,725,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 726; @position = 18; @symbol_constdef = [packingFormat,726,18,31]; @symbol_type<0> = [String,726,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 729; @symbol_moduledef = [system_icon_light__hint_button_right_top,729,15,55]; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 729; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 730; @position = 18; @symbol_constdef = [filename,730,18,26]; @symbol_type<0> = [String,730,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 731; @position = 18; @symbol_constdef = [dithering,731,18,27]; @symbol_type<0> = [String,731,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 732; @position = 18; @symbol_constdef = [packingFormat,732,18,31]; @symbol_type<0> = [String,732,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 735; @symbol_moduledef = [confirmation_size__body,735,15,38]; ]
+        module confirmation_size__body {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 735; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 736; @position = 18; @symbol_constdef = [width,736,18,23]; @symbol_type<0> = [Number,736,27,33]; ]
+            const width as Number = 316;
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 737; @position = 18; @symbol_constdef = [height,737,18,24]; @symbol_type<0> = [Number,737,28,34]; ]
+            const height as Number = 246;
+        }
+        [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 740; @symbol_moduledef = [system_icon_positive__check,740,15,42]; ]
+        module system_icon_positive__check {
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 740; ]
+            <init> {
+            }
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 741; @position = 18; @symbol_constdef = [filename,741,18,26]; @symbol_type<0> = [String,741,30,36]; ]
+            const filename as String = "C:\\Users\\lfvvi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr970\\system_icon_positive__check.svg";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 742; @position = 18; @symbol_constdef = [dithering,742,18,27]; @symbol_type<0> = [String,742,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 743; @position = 18; @symbol_constdef = [packingFormat,743,18,31]; @symbol_type<0> = [String,743,35,41]; ]
+            const packingFormat as String = "png";
+        }
+    }
+}
+[ @file = "c:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\bin\gen\006-B4565-00\source\Rez.mcgen"; @line = 1; ]
+<init> {
+}

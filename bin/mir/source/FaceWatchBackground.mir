@@ -1,0 +1,67 @@
+[ @file = "C:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\source\FaceWatchBackground.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\source\FaceWatchBackground.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\source\FaceWatchBackground.mc"; @line = 14; @symbol_classdef = [Background,14,6,16]; @symbol_extends<0> = [WatchUi,14,25,32]; @symbol_extends<1> = [Drawable,14,33,41]; ]
+class Background extends WatchUi.Drawable {
+    [ @file = "C:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\source\FaceWatchBackground.mc"; @line = 14; ]
+    <init> {
+    }
+    [ @file = "C:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\source\FaceWatchBackground.mc"; @line = 14; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\source\FaceWatchBackground.mc"; @line = 16; @symbol_functiondef = [initialize,16,13,23]; ]
+    function initialize() as Void {
+C__Users_lfvvi_OneDrive_Escritorio_Garmin_FaceWatch_source_FaceWatchBackground_mc_16_26_22_4_start:
+[ "C:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\source\FaceWatchBackground.mc" 17 8 ]
+        [ "C__Users_lfvvi_OneDrive_Escritorio_Garmin_FaceWatch_source_FaceWatchBackground_mc_16_26_22_4_start" "C__Users_lfvvi_OneDrive_Escritorio_Garmin_FaceWatch_source_FaceWatchBackground_mc_16_26_22_4_stop" ]
+        %dictionary.1 = local;
+        symbol [ dictionary %dictionary.1 17 12 22 ];
+        %tmp.1 = newd 1;
+        %tmp.3 = const :identifier;
+        symbol [ identifier %tmp.3 18 13 23 const ];
+        %tmp.4 = "Background";
+        %tmp.5 = dup %tmp.1;
+        %tmp.6 = aputv %tmp.5 %tmp.3 %tmp.4;
+        lputv %dictionary.1 %tmp.6;
+        symbol [ dictionary %dictionary.1 17 12 22 ];
+[ "C:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\source\FaceWatchBackground.mc" 21 8 ]
+        symbol [ Drawable %tmp.8 21 8 16 ];
+        %tmp.8 = getv ? :Drawable;
+        symbol [ initialize %tmp.9 21 17 27 ];
+        %tmp.9 = getv function %tmp.8 :initialize;
+        %tmp.10 = lgetv %dictionary.1;
+        symbol [ dictionary %tmp.10 21 28 38 ];
+        invoke %tmp.8 %tmp.9(%tmp.10);
+C__Users_lfvvi_OneDrive_Escritorio_Garmin_FaceWatch_source_FaceWatchBackground_mc_16_26_22_4_stop:
+    }
+    [ @file = "C:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\source\FaceWatchBackground.mc"; @line = 24; @symbol_functiondef = [draw,24,13,17]; @symbol_param<0> = [dc,24,18,20]; @symbol_param<0>_type<0> = [Dc,24,24,26]; ]
+    function draw(dc as Dc) as Void {
+C__Users_lfvvi_OneDrive_Escritorio_Garmin_FaceWatch_source_FaceWatchBackground_mc_24_36_30_4_start:
+[ "C:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\source\FaceWatchBackground.mc" 28 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 28 8 10 ];
+        symbol [ setColor %tmp.2 28 11 19 ];
+        %tmp.2 = getv function %tmp.1 :setColor;
+        symbol [ Graphics %tmp.3 28 20 28 ];
+        %tmp.3 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.4 28 29 40 ];
+        %tmp.4 = getv %tmp.3 :COLOR_BLACK;
+        symbol [ Graphics %tmp.5 28 42 50 ];
+        %tmp.5 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.6 28 51 62 ];
+        %tmp.6 = getv %tmp.5 :COLOR_BLACK;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "C:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\source\FaceWatchBackground.mc" 29 8 ]
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 29 8 10 ];
+        symbol [ clear %tmp.8 29 11 16 ];
+        %tmp.8 = getv function %tmp.7 :clear;
+        invoke %tmp.7 %tmp.8();
+C__Users_lfvvi_OneDrive_Escritorio_Garmin_FaceWatch_source_FaceWatchBackground_mc_24_36_30_4_stop:
+    }
+}
+[ @file = "C:\Users\lfvvi\OneDrive\Escritorio\Garmin\FaceWatch\source\FaceWatchBackground.mc"; @line = 1; ]
+<init> {
+}

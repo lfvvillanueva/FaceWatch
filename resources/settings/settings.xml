@@ -1,0 +1,15 @@
+<settings>
+    <setting propertyKey="@Properties.BrandName" title="@Strings.BrandNameTitle">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+
+    <setting propertyKey="@Properties.AccentTheme" title="@Strings.AccentThemeTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.ThemeIce</listEntry>
+            <listEntry value="1">@Strings.ThemeRed</listEntry>
+            <listEntry value="2">@Strings.ThemeGold</listEntry>
+            <listEntry value="3">@Strings.ThemeGreen</listEntry>
+            <listEntry value="4">@Strings.ThemeWhite</listEntry>
+        </settingConfig>
+    </setting>
+</settings>
