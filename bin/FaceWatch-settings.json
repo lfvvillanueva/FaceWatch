@@ -2,7 +2,7 @@
   "settings" : [ {
     "key" : "BrandName",
     "valueType" : "string",
-    "defaultValue" : "LUIS VENEGAS",
+    "defaultValue" : "PULSE ORBIT",
     "configTitle" : "BrandNameTitle",
     "configPrompt" : null,
     "configType" : "alphaNumeric",
@@ -54,7 +54,7 @@
       "ThemeWhite" : "White",
       "ThemeRed" : "Red",
       "ThemeGold" : "Gold",
-      "AppName" : "FaceWatch",
+      "AppName" : "Pulse Orbit",
       "BrandNameTitle" : "Brand name"
     }
   }

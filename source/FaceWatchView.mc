@@ -1,5 +1,7 @@
 import Toybox.Application;
+import Toybox.ActivityMonitor;
 import Toybox.Graphics;
+import Toybox.Lang;
 import Toybox.Math;
 import Toybox.System;
 import Toybox.Timer;
@@ -8,15 +10,15 @@ import Toybox.WatchUi;
 // =====================================================
 // FaceWatchView
 // -----------------------------------------------------
-// V7 Procedural Crazy Hours
-// Numerales PNG 68x68 + Manecillas elegantes de 3 colores
+// V8 Sport Orbit Hours
+// Numerales PNG 68x68 + manecillas procedurales de 3 colores
 //
 // OBJETIVOS DE ESTA VERSIÓN
 // -----------------------------------------------------
 // - Fondo procedural tipo fibra de carbono
 // - AOD negro, sin fibra
-// - Crazy Hours con PNGs
-// - Logo GARMIN más arriba
+// - Horas no lineales con PNGs
+// - Marca propia en la parte superior
 // - Manecillas de SOLO 3 colores:
 //      1) gris obscuro
 //      2) gris claro
@@ -32,8 +34,8 @@ class FaceWatchView extends WatchUi.WatchFace {
     // REFRESH / SEGUNDERO
     // =====================================================
 
-    const SWEEP_REFRESH_MS = 50;
-    const SWEEP_STEPS_PER_SECOND = 20.0;
+    const SWEEP_REFRESH_MS = 125;
+    const SWEEP_STEPS_PER_SECOND = 8.0;
 
     // =====================================================
     // COLORES GENERALES
@@ -46,6 +48,7 @@ class FaceWatchView extends WatchUi.WatchFace {
     const COLOR_CARBON_2      = 0x171717;
     const COLOR_CARBON_3      = 0x252525;
     const COLOR_CARBON_SHADOW = 0x030303;
+    const COLOR_TRACK_DARK    = 0x202020;
 
     // =====================================================
     // COLORES DE MANECILLAS
@@ -58,7 +61,7 @@ class FaceWatchView extends WatchUi.WatchFace {
     const COLOR_HAND_WHITE = 0xF5F5F5;   // blanco
 
     // =====================================================
-    // FUENTE DEL LOGO GARMIN
+    // FUENTE DE LA MARCA
     // -----------------------------------------------------
     // Opciones recomendadas:
     // - Graphics.FONT_XTINY
@@ -69,7 +72,7 @@ class FaceWatchView extends WatchUi.WatchFace {
     // - FONT_TINY
     // =====================================================
 
-    const GARMIN_FONT = Graphics.FONT_TINY;
+    const BRAND_FONT = Graphics.FONT_XTINY;
 
     // =====================================================
     // TAMAÑOS / PROPORCIONES
@@ -84,8 +87,8 @@ class FaceWatchView extends WatchUi.WatchFace {
     // Más grande = más afuera
     // Más pequeño = más al centro
     // -----------------------------------------------------
-    const NUMBER_RADIUS_ACTIVE = 0.91;
-    const NUMBER_RADIUS_AOD    = 0.91;
+    const NUMBER_RADIUS_ACTIVE = 0.75;
+    const NUMBER_RADIUS_AOD    = 0.72;
 
     // -----------------------------------------------------
     // TAMAÑO DE LA TRAMA DE CARBONO
@@ -94,12 +97,12 @@ class FaceWatchView extends WatchUi.WatchFace {
     const CARBON_TILE_AOD    = 28;
 
     // -----------------------------------------------------
-    // POSICIÓN DEL LOGO GARMIN
+    // POSICIÓN DE LA MARCA
     // -----------------------------------------------------
     // Más grande = más arriba
     // Más pequeño = más abajo
     // -----------------------------------------------------
-    const LOGO_Y_FACTOR = 0.50;
+    const LOGO_Y_FACTOR = 0.43;
 
     // =====================================================
     // ESTADO INTERNO
@@ -114,6 +117,7 @@ class FaceWatchView extends WatchUi.WatchFace {
     var _baseMinute;
     var _baseHour;
     var _baseTimerMs;
+    var _numeralBitmaps;
 
     // =====================================================
     // CICLO DE VIDA
@@ -131,6 +135,7 @@ class FaceWatchView extends WatchUi.WatchFace {
         _baseMinute = 0;
         _baseHour = 0;
         _baseTimerMs = 0;
+        _numeralBitmaps = null;
     }
 
     function onLayout(dc) {
@@ -139,6 +144,7 @@ class FaceWatchView extends WatchUi.WatchFace {
 
     function onShow() {
         _isAwake = true;
+        loadNumeralBitmaps();
         resetSmoothTimeBase();
         startSweepTimer();
         WatchUi.requestUpdate();
@@ -226,7 +232,7 @@ class FaceWatchView extends WatchUi.WatchFace {
     // -----------------------------------------------------
     // Logo configurable
     // -----------------------------------------------------
-    // Si después quieres que GARMIN NO cambie de color,
+    // Si después quieres que la marca NO cambie de color,
     // puedes regresar aquí un color fijo como:
     // return COLOR_HAND_WHITE;
     // -----------------------------------------------------
@@ -313,10 +319,15 @@ class FaceWatchView extends WatchUi.WatchFace {
 
         var clock = System.getClockTime();
 
-        drawCrazyNumbers(dc, cx, cy, radius, clock);
+        if (_isAwake) {
+            drawSportTrack(dc, cx, cy, radius);
+        }
+
+        drawOrbitalNumbers(dc, cx, cy, radius, clock);
 
         if (_isAwake) {
-            drawGarminLogo(dc, cx, cy, radius);
+            drawBrandMark(dc, cx, cy, radius);
+            drawDataWidgets(dc, cx, cy, radius);
         }
 
         drawHands(dc, cx, cy, radius, clock);
@@ -338,6 +349,42 @@ class FaceWatchView extends WatchUi.WatchFace {
     function drawAodBackground(dc, width, height) {
         dc.setColor(COLOR_BACKGROUND, COLOR_BACKGROUND);
         dc.fillRectangle(0, 0, width, height);
+    }
+
+    function drawSportTrack(dc, cx, cy, radius) {
+        dc.setColor(COLOR_TRACK_DARK, Graphics.COLOR_TRANSPARENT);
+        dc.setPenWidth(2);
+        dc.drawCircle(cx, cy, roundToNumber(radius * 0.88));
+
+        dc.setColor(COLOR_TRACK_DARK, Graphics.COLOR_TRANSPARENT);
+        dc.setPenWidth(1);
+        dc.drawCircle(cx, cy, roundToNumber(radius * 0.67));
+
+        for (var i = 0; i < 60; i += 1) {
+            var angleRad = Math.toRadians((i * 6) - 90);
+            var ux = Math.cos(angleRad);
+            var uy = Math.sin(angleRad);
+
+            var outer = radius * 0.96;
+            var inner;
+
+            if ((i % 5) == 0) {
+                inner = radius * 0.925;
+                dc.setColor(COLOR_HAND_LIGHT, Graphics.COLOR_TRANSPARENT);
+                dc.setPenWidth(2);
+            } else {
+                inner = radius * 0.945;
+                dc.setColor(COLOR_TRACK_DARK, Graphics.COLOR_TRANSPARENT);
+                dc.setPenWidth(1);
+            }
+
+            dc.drawLine(
+                roundToNumber(cx + ux * inner),
+                roundToNumber(cy + uy * inner),
+                roundToNumber(cx + ux * outer),
+                roundToNumber(cy + uy * outer)
+            );
+        }
     }
 
     function drawOuterFillSafety(dc, cx, cy, radius) {
@@ -426,11 +473,11 @@ class FaceWatchView extends WatchUi.WatchFace {
     }
 
     // =====================================================
-    // LOGO GARMIN
+    // MARCA
     // =====================================================
 
-    function drawGarminLogo(dc, cx, cy, radius) {
-        var logoText = "GARMIN";
+    function drawBrandMark(dc, cx, cy, radius) {
+        var logoText = getBrandName();
 
         // -------------------------------------------------
         // AJUSTE FÁCIL DEL LOGO:
@@ -449,16 +496,16 @@ class FaceWatchView extends WatchUi.WatchFace {
         dc.drawText(
             cx + 1,
             logoY + 1,
-            GARMIN_FONT,
+            BRAND_FONT,
             logoText,
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
         );
 
-        dc.setColor(getLogoColor(), Graphics.COLOR_TRANSPARENT);
+        dc.setColor(COLOR_HAND_LIGHT, Graphics.COLOR_TRANSPARENT);
         dc.drawText(
             cx,
             logoY,
-            GARMIN_FONT,
+            BRAND_FONT,
             logoText,
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
         );
@@ -468,7 +515,7 @@ class FaceWatchView extends WatchUi.WatchFace {
     // CRAZY HOURS - NÚMEROS PNG
     // =====================================================
 
-    function drawCrazyNumbers(dc, cx, cy, radius, clock) {
+    function drawOrbitalNumbers(dc, cx, cy, radius, clock) {
         var currentHour = clock.hour % 12;
         if (currentHour == 0) {
             currentHour = 12;
@@ -514,6 +561,8 @@ class FaceWatchView extends WatchUi.WatchFace {
         centerX = centerX + getNumberXOffset(position);
         centerY = centerY + getNumberYOffset(position);
 
+        drawNumberHalo(dc, centerX, centerY, hourLabel);
+
         var bitmap = getNumeralBitmap(hourLabel);
 
         var drawX = centerX - (NUMERAL_ASSET_SIZE / 2).toNumber();
@@ -522,32 +571,103 @@ class FaceWatchView extends WatchUi.WatchFace {
         dc.drawBitmap(drawX, drawY, bitmap);
     }
 
-    function getNumeralBitmap(hourLabel) {
-        if (hourLabel == 1) {
-            return WatchUi.loadResource(Rez.Drawables.Num1);
-        } else if (hourLabel == 2) {
-            return WatchUi.loadResource(Rez.Drawables.Num2);
-        } else if (hourLabel == 3) {
-            return WatchUi.loadResource(Rez.Drawables.Num3);
-        } else if (hourLabel == 4) {
-            return WatchUi.loadResource(Rez.Drawables.Num4);
-        } else if (hourLabel == 5) {
-            return WatchUi.loadResource(Rez.Drawables.Num5);
-        } else if (hourLabel == 6) {
-            return WatchUi.loadResource(Rez.Drawables.Num6);
-        } else if (hourLabel == 7) {
-            return WatchUi.loadResource(Rez.Drawables.Num7);
-        } else if (hourLabel == 8) {
-            return WatchUi.loadResource(Rez.Drawables.Num8);
-        } else if (hourLabel == 9) {
-            return WatchUi.loadResource(Rez.Drawables.Num9);
-        } else if (hourLabel == 10) {
-            return WatchUi.loadResource(Rez.Drawables.Num10);
-        } else if (hourLabel == 11) {
-            return WatchUi.loadResource(Rez.Drawables.Num11);
-        } else {
-            return WatchUi.loadResource(Rez.Drawables.Num12);
+    // =====================================================
+    // WIDGETS DEPORTIVOS
+    // =====================================================
+
+    function drawDataWidgets(dc, cx, cy, radius) {
+        var widgetY = roundToNumber(cy + (radius * 0.28));
+        var text = getStepText() + " | " + getBatteryText();
+
+        dc.setColor(COLOR_TRACK_DARK, Graphics.COLOR_TRANSPARENT);
+        dc.setPenWidth(1);
+        dc.drawLine(cx - 30, widgetY - 7, cx + 30, widgetY - 7);
+
+        dc.setColor(getLogoColor(), Graphics.COLOR_TRANSPARENT);
+        dc.setPenWidth(1);
+        dc.drawLine(cx - 28, widgetY - 7, cx - 14, widgetY - 7);
+
+        dc.setColor(0x8A929C, Graphics.COLOR_TRANSPARENT);
+        dc.drawText(
+            cx,
+            widgetY,
+            Graphics.FONT_XTINY,
+            text,
+            Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
+        );
+    }
+
+    function getStepText() {
+        if (Toybox has :ActivityMonitor) {
+            var info = ActivityMonitor.getInfo();
+
+            if ((info != null) && (info.steps != null)) {
+                var steps = info.steps;
+
+                if (steps >= 1000) {
+                    return (steps / 1000).toNumber().toString() + "K";
+                }
+
+                return steps.toString();
+            }
         }
+
+        return "--";
+    }
+
+    function getBatteryText() {
+        var stats = System.getSystemStats();
+        var battery = stats.battery.toNumber();
+        return battery.toString() + "%";
+    }
+
+    function drawNumberHalo(dc, centerX, centerY, hourLabel) {
+        if (!_isAwake) {
+            return;
+        }
+
+        var clock = System.getClockTime();
+        var currentHour = clock.hour % 12;
+
+        if (currentHour == 0) {
+            currentHour = 12;
+        }
+
+        if (hourLabel == currentHour) {
+            dc.setColor(0x000000, Graphics.COLOR_TRANSPARENT);
+            dc.fillCircle(centerX, centerY, 34);
+
+            dc.setColor(getLogoColor(), Graphics.COLOR_TRANSPARENT);
+            dc.setPenWidth(2);
+            dc.drawCircle(centerX, centerY, 35);
+        }
+    }
+
+    function loadNumeralBitmaps() {
+        if (_numeralBitmaps != null) {
+            return;
+        }
+
+        _numeralBitmaps = [
+            WatchUi.loadResource(Rez.Drawables.Num1),
+            WatchUi.loadResource(Rez.Drawables.Num2),
+            WatchUi.loadResource(Rez.Drawables.Num3),
+            WatchUi.loadResource(Rez.Drawables.Num4),
+            WatchUi.loadResource(Rez.Drawables.Num5),
+            WatchUi.loadResource(Rez.Drawables.Num6),
+            WatchUi.loadResource(Rez.Drawables.Num7),
+            WatchUi.loadResource(Rez.Drawables.Num8),
+            WatchUi.loadResource(Rez.Drawables.Num9),
+            WatchUi.loadResource(Rez.Drawables.Num10),
+            WatchUi.loadResource(Rez.Drawables.Num11),
+            WatchUi.loadResource(Rez.Drawables.Num12)
+        ];
+    }
+
+    function getNumeralBitmap(hourLabel) {
+        loadNumeralBitmaps();
+        var bitmaps = _numeralBitmaps as Lang.Array;
+        return bitmaps[hourLabel - 1];
     }
 
     // =====================================================
@@ -571,19 +691,19 @@ class FaceWatchView extends WatchUi.WatchFace {
     }
 
     function getNumberYOffset(position) {
-        if (position == 0)  { return 18;  }  // 12
-        if (position == 1)  { return 16;  }  // 8
-        if (position == 2)  { return 10;  }  // 4
+        if (position == 0)  { return 10;  }  // 12
+        if (position == 1)  { return 10;  }  // 8
+        if (position == 2)  { return 6;   }  // 4
         if (position == 3)  { return 0;   }  // 1
         if (position == 4)  { return -4;  }  // 9
-        if (position == 5)  { return -8;  }  // 5
-        if (position == 6)  { return -18; }  // 11
-        if (position == 7)  { return -10; }  // 7
+        if (position == 5)  { return -4;  }  // 5
+        if (position == 6)  { return -10; }  // 11
+        if (position == 7)  { return -6;  }  // 7
         if (position == 8)  { return -4;  }  // 3
         if (position == 9)  { return 0;   }  // 10
-        if (position == 10) { return 10;  }  // 6
+        if (position == 10) { return 6;   }  // 6
 
-        return 16; // 2
+        return 10; // 2
     }
 
     // =====================================================
@@ -618,7 +738,7 @@ class FaceWatchView extends WatchUi.WatchFace {
         }
     }
 
-    function getCrazyHourAngle(hour12) {
+    function getOrbitalHourAngle(hour12) {
         var angle = 330;
 
         if (hour12 == 12) {
@@ -669,7 +789,7 @@ class FaceWatchView extends WatchUi.WatchFace {
             hour12 = 12;
         }
 
-        var hourAngle = getCrazyHourAngle(hour12);
+        var hourAngle = getOrbitalHourAngle(hour12);
 
         var minuteAngle;
         var secondAngle;
@@ -999,6 +1119,10 @@ class FaceWatchView extends WatchUi.WatchFace {
     function drawCenterCap(dc, cx, cy) {
         dc.setColor(COLOR_HAND_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.fillCircle(cx, cy, 10);
+
+        dc.setColor(getLogoColor(), Graphics.COLOR_TRANSPARENT);
+        dc.setPenWidth(1);
+        dc.drawCircle(cx, cy, 11);
 
         dc.setColor(COLOR_HAND_DARK, Graphics.COLOR_TRANSPARENT);
         dc.fillCircle(cx, cy, 8);
